@@ -70,28 +70,82 @@ def main():
     except Exception:
         client = chromadb.Client()
 
+    # Diagnostics: list collections
+    try:
+        cols = client.list_collections()
+        print('Chroma collections:', [c['name'] for c in cols])
+    except Exception:
+        try:
+            # some clients return list of names
+            print('Chroma collections:', client.list_collections())
+        except Exception:
+            pass
+
     try:
         collection = client.get_collection(args.collection)
     except Exception:
         collection = client.get_or_create_collection(args.collection)
 
-    # perform the query
-    res = collection.query(query_embeddings=[qvec], n_results=args.k)
+    # Try to print collection size if available
+    try:
+        cnt = collection.count()
+        # count() may return a dict or int depending on version
+        if isinstance(cnt, dict):
+            print('Collection counts:', cnt)
+        else:
+            print('Collection count:', cnt)
+    except Exception:
+        try:
+            # fallback: try to get metadata length
+            info = collection.count()
+            print('Collection info:', info)
+        except Exception:
+            pass
 
-    ids = res.get('ids') if isinstance(res, dict) else None
-    results = res
-    # Chroma returns a dict with keys 'ids','metadatas','documents','distances'
+    # perform the query
+    print(f'Query vector length={len(qvec)}, first_values={qvec[:3]}')
+    try:
+        res = collection.query(query_embeddings=[qvec], n_results=args.k)
+    except Exception as e:
+        raise SystemExit('Chroma query failed: ' + str(e))
+
+    print('Raw response type:', type(res))
+    # Chroma may return a dict-like result
     if isinstance(res, dict):
-        for i, (id_row, dist_row) in enumerate(zip(res['ids'][0], res.get('distances', [[]])[0]), 1):
-            meta = res['metadatas'][0][i-1] if res.get('metadatas') else None
-            doc = res['documents'][0][i-1] if res.get('documents') else None
+        ids = res.get('ids', [[]])[0]
+        dists = res.get('distances', [[]])[0]
+        metas = res.get('metadatas', [[]])[0] if res.get('metadatas') else [None]*len(ids)
+        docs = res.get('documents', [[]])[0] if res.get('documents') else [None]*len(ids)
+        for i, id_row in enumerate(ids, 1):
+            dist_row = dists[i-1] if i-1 < len(dists) else None
+            meta = metas[i-1] if i-1 < len(metas) else None
+            doc = docs[i-1] if i-1 < len(docs) else None
             print(f'{i}. id={id_row}, distance={dist_row}')
             if meta:
                 print('   meta:', meta)
             if doc:
-                print('   doc snippet:', doc[:200])
+                print('   doc snippet:', str(doc)[:200])
     else:
-        print('Query returned:', res)
+        # Try object-like access
+        try:
+            ids = getattr(res, 'ids', None)
+            distances = getattr(res, 'distances', None)
+            metadatas = getattr(res, 'metadatas', None)
+            documents = getattr(res, 'documents', None)
+            if ids:
+                for i, id_row in enumerate(ids[0], 1):
+                    dist_row = distances[0][i-1] if distances and len(distances) > 0 else None
+                    meta = metadatas[0][i-1] if metadatas and len(metadatas) > 0 else None
+                    doc = documents[0][i-1] if documents and len(documents) > 0 else None
+                    print(f'{i}. id={id_row}, distance={dist_row}')
+                    if meta:
+                        print('   meta:', meta)
+                    if doc:
+                        print('   doc snippet:', str(doc)[:200])
+            else:
+                print('Query returned (unrecognized format):', res)
+        except Exception:
+            print('Query returned (unable to pretty-print):', res)
 
 
 if __name__ == '__main__':
