@@ -68,6 +68,10 @@ def clean_text(text: str) -> str:
     # collapse spaces between digits: '1 4' -> '14'
     text = re.sub(r'(?<=\d)\s+(?=\d)', '', text)
 
+    # collapse spaces between single alnum characters: '4 8 a 3 1' -> '48a31'
+    # match a space where both neighbors are single alnum characters (word-boundary)
+    text = re.sub(r'(?<=\b[0-9A-Za-z])\s+(?=[0-9A-Za-z]\b)', '', text)
+
     # normalize hyphens used as connectors: ' - ' or ' -' -> '-'
     text = re.sub(r'\s*-\s*', '-', text)
 

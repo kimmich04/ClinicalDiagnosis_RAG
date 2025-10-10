@@ -1,6 +1,7 @@
 import fitz  # PyMuPDF
 import os
 import json
+import re
 
 # -------- CONFIG --------
 INPUT_DIR = "./SourceMedicalRecords"       # Folder containing your PDFs
@@ -15,54 +16,36 @@ os.makedirs(MARKDOWN_DIR, exist_ok=True)
 os.makedirs(IMAGES_DIR, exist_ok=True)
 os.makedirs(METADATA_DIR, exist_ok=True)
 
-def process_pdf(pdf_path):
-    """Extract text (Markdown) + images from a PDF file."""
-    doc = fitz.open(pdf_path)
-    all_text = ""
-    images = []
-    # Make a per-PDF image subdir
-    pdf_image_dir = os.path.join(IMAGES_DIR, os.path.splitext(os.path.basename(pdf_path))[0])
-    os.makedirs(pdf_image_dir, exist_ok=True)
 
-    for page_num, page in enumerate(doc, start=1):
-        # ---- Extract text ----
-        all_text += f"\n\n# Page {page_num}\n\n"
-        all_text += page.get_text("markdown") or "[No text found]\n"
+def clean_text(text: str) -> str:
+    if not text:
+        return text
 
-        # ---- Extract images ----
-        for img_index, img in enumerate(page.get_images(full=True), start=1):
-            xref = img[0]
-            base_image = doc.extract_image(xref)
-            image_bytes = base_image["image"]
-            image_ext = base_image["ext"]
-            image_name = f"p{page_num}_img{img_index}.{image_ext}"
-            image_path = os.path.join(pdf_image_dir, image_name)
+    # replace non-breaking spaces with normal spaces
+    text = text.replace('\u00A0', ' ')
 
-            with open(image_path, "wb") as f:
-                f.write(image_bytes)
+    # remove control characters (including those strange 0x01/0x03 artifacts)
+    text = re.sub(r'[\x00-\x1F\x7F]+', ' ', text)
 
-            images.append({
-                "page": page_num,
-                "path": image_path
-            })
+    # normalize various dash characters to simple hyphen
+    text = re.sub(r'[–—―]+', '-', text)
 
-    doc.close()
-    return all_text.strip(), images
+    # collapse multiple whitespace into single space/newline preserving newlines
+    # normalize newlines first
+    text = re.sub(r'\r\n?', '\n', text)
+    # collapse runs of spaces/tabs
+    text = re.sub(r'[ \t]+', ' ', text)
 
+    # fix split numbers (like "4 8" -> "48")
+    text = re.sub(r'(?<=\d)\s+(?=\d)', '', text)
 
-def main():
-    pdf_files = [f for f in os.listdir(INPUT_DIR) if f.lower().endswith(".pdf")]
-#!/usr/bin/env python3
-import fitz  # PyMuPDF
-import os
-import json
+    # normalize hyphen spacing
+    text = re.sub(r'\s*-\s*', '-', text)
 
-# -------- CONFIG --------
-INPUT_DIR = "./SourceMedicalRecords"       # Folder containing your PDFs
-OUTPUT_DIR = "./Processed/images"    # Output folder for Markdown + JSON
-# ------------------------
+    # collapse multiple blank lines
+    text = re.sub(r'\n\s*\n+', '\n\n', text)
 
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+    return text.strip()
 
 
 def process_pdf(pdf_path):
@@ -70,6 +53,10 @@ def process_pdf(pdf_path):
     doc = fitz.open(pdf_path)
     all_text = ""
     images = []
+
+    pdf_stem = os.path.splitext(os.path.basename(pdf_path))[0]
+    pdf_image_dir = os.path.join(IMAGES_DIR, pdf_stem)
+    os.makedirs(pdf_image_dir, exist_ok=True)
 
     for page_num, page in enumerate(doc, start=1):
         # ---- Extract text ----
@@ -83,8 +70,8 @@ def process_pdf(pdf_path):
             base_image = doc.extract_image(xref)
             image_bytes = base_image.get("image")
             image_ext = base_image.get("ext") or "png"
-            image_name = f"{os.path.splitext(os.path.basename(pdf_path))[0]}_p{page_num}_img{img_index}.{image_ext}"
-            image_path = os.path.join(OUTPUT_DIR, image_name)
+            image_name = f"{pdf_stem}_p{page_num}_img{img_index}.{image_ext}"
+            image_path = os.path.join(pdf_image_dir, image_name)
 
             with open(image_path, "wb") as f:
                 f.write(image_bytes)
@@ -111,11 +98,12 @@ def main():
 
         text, images = process_pdf(pdf_path)
 
+        # normalize extracted text to fix spacing/hyphenation artifacts
+        md_text = clean_text(text)
+
         # Save Markdown file (one per PDF)
         md_filename = os.path.splitext(pdf_file)[0] + ".md"
         md_path = os.path.join(MARKDOWN_DIR, md_filename)
-        # Replace absolute image paths in 'images' list with relative links in markdown
-        md_text = text
         # Simple heuristic: append image links at the end under an Images section
         if images:
             md_text += "\n\n## Images\n\n"

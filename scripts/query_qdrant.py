@@ -12,6 +12,7 @@ import argparse
 from pathlib import Path
 import numpy as np
 from qdrant_client import QdrantClient
+import re
 
 
 def main():
@@ -56,7 +57,15 @@ def main():
             txt = payload.get('text') if typ == 'text' else payload.get('image_path')
             print(f'   file={file}, type={typ}, idx={chunk}')
             if txt:
-                print(f'   snippet: {str(txt)[:200]!r}')
+                def display_clean(s: str) -> str:
+                    s = re.sub(r'(?mi)^\s*#?\s*page\b.*$', '', s)
+                    s = re.sub(r'(?<=\d)\s+(?=\d)', '', s)
+                    s = re.sub(r'(?<=\b[0-9A-Za-z])\s+(?=[0-9A-Za-z]\b)', '', s)
+                    s = re.sub(r'\s*-\s*', '-', s)
+                    s = re.sub(r'[ \t]+', ' ', s)
+                    return s.strip()
+
+                print(f"   snippet: {display_clean(str(txt))[:200]!r}")
 
 if __name__ == '__main__':
     main()
