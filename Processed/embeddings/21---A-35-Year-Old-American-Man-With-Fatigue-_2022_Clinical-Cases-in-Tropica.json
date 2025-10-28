@@ -1,0 +1,23 @@
+{
+  "file": "21---A-35-Year-Old-American-Man-With-Fatigue-_2022_Clinical-Cases-in-Tropica.md",
+  "n_chunks": 2,
+  "text_embedding": "Processed\\embeddings\\21---A-35-Year-Old-American-Man-With-Fatigue-_2022_Clinical-Cases-in-Tropica_text.npy",
+  "image_embedding": "Processed\\embeddings\\21---A-35-Year-Old-American-Man-With-Fatigue-_2022_Clinical-Cases-in-Tropica_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ 2 1 --- a - 3 5 - year - old - american - man - with - fatigue -_ 2 0 2 2 _ clinical - cases - in - tropica \\ 2 1 --- a - 3 5 - year - old - american - man - with - fatigue -_ 2 0 2 2 _ clinical - cases - in",
+      "start_token": 0,
+      "end_token": 77
+    },
+    {
+      "id": 1,
+      "text": "2 0 2 2 _ clinical - cases - in - tropica _ p 1 _ img 1. jpeg )",
+      "start_token": 67,
+      "end_token": 90
+    }
+  ],
+  "images": [
+    "Processed\\images\\21---A-35-Year-Old-American-Man-With-Fatigue-_2022_Clinical-Cases-in-Tropica\\21---A-35-Year-Old-American-Man-With-Fatigue-_2022_Clinical-Cases-in-Tropica_p1_img1.jpeg"
+  ]
+}

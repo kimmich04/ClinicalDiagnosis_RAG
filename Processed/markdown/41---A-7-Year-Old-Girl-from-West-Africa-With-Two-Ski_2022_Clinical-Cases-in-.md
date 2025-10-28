@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/41---A-7-Year-Old-Girl-from-West-Africa-With-Two-Ski_2022_Clinical-Cases-in-/41---A-7-Year-Old-Girl-from-West-Africa-With-Two-Ski_2022_Clinical-Cases-in-_p1_img1.jpeg)
+![figure](..\images\41---A-7-Year-Old-Girl-from-West-Africa-With-Two-Ski_2022_Clinical-Cases-in-\41---A-7-Year-Old-Girl-from-West-Africa-With-Two-Ski_2022_Clinical-Cases-in-_p1_img1.jpeg)
 
-![figure](../images/41---A-7-Year-Old-Girl-from-West-Africa-With-Two-Ski_2022_Clinical-Cases-in-/41---A-7-Year-Old-Girl-from-West-Africa-With-Two-Ski_2022_Clinical-Cases-in-_p2_img1.jpeg)
+![figure](..\images\41---A-7-Year-Old-Girl-from-West-Africa-With-Two-Ski_2022_Clinical-Cases-in-\41---A-7-Year-Old-Girl-from-West-Africa-With-Two-Ski_2022_Clinical-Cases-in-_p2_img1.jpeg)
 

@@ -1,0 +1,23 @@
+{
+  "file": "38---A-24-Year-Old-Female-Globetrotter-With-Strange_2022_Clinical-Cases-in-T.md",
+  "n_chunks": 2,
+  "text_embedding": "Processed\\embeddings\\38---A-24-Year-Old-Female-Globetrotter-With-Strange_2022_Clinical-Cases-in-T_text.npy",
+  "image_embedding": "Processed\\embeddings\\38---A-24-Year-Old-Female-Globetrotter-With-Strange_2022_Clinical-Cases-in-T_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ 3 8 --- a - 2 4 - year - old - female - globetrotter - with - strange _ 2 0 2 2 _ clinical - cases - in - t \\ 3 8 --- a - 2 4 - year - old - female - globetrotter - with - strange _ 2 0 2 2 _ clinical - cases - in -",
+      "start_token": 0,
+      "end_token": 77
+    },
+    {
+      "id": 1,
+      "text": "0 2 2 _ clinical - cases - in - t _ p 2 _ img 1. jpeg )",
+      "start_token": 67,
+      "end_token": 88
+    }
+  ],
+  "images": [
+    "Processed\\images\\38---A-24-Year-Old-Female-Globetrotter-With-Strange_2022_Clinical-Cases-in-T\\38---A-24-Year-Old-Female-Globetrotter-With-Strange_2022_Clinical-Cases-in-T_p2_img1.jpeg"
+  ]
+}

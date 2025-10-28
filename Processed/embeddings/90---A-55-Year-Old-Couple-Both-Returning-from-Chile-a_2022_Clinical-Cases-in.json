@@ -1,0 +1,30 @@
+{
+  "file": "90---A-55-Year-Old-Couple-Both-Returning-from-Chile-a_2022_Clinical-Cases-in.md",
+  "n_chunks": 3,
+  "text_embedding": "Processed\\embeddings\\90---A-55-Year-Old-Couple-Both-Returning-from-Chile-a_2022_Clinical-Cases-in_text.npy",
+  "image_embedding": "Processed\\embeddings\\90---A-55-Year-Old-Couple-Both-Returning-from-Chile-a_2022_Clinical-Cases-in_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ 9 0 --- a - 5 5 - year - old - couple - both - returning - from - chile - a _ 2 0 2 2 _ clinical - cases - in \\ 9 0 --- a - 5 5 - year - old - couple - both - returning - from - chile - a _ 2 0 2 2 _ clinical -",
+      "start_token": 0,
+      "end_token": 77
+    },
+    {
+      "id": 1,
+      "text": "- a _ 2 0 2 2 _ clinical - cases - in _ p 1 _ img 1. jpeg )![ figure ](..\\ images \\ 9 0 --- a - 5 5 - year - old - couple - both - returning - from - chile - a _ 2 0 2 2 _ clinical - cases - in \\ 9 0 --- a - 5 5 - year -",
+      "start_token": 67,
+      "end_token": 144
+    },
+    {
+      "id": 2,
+      "text": "9 0 --- a - 5 5 - year - old - couple - both - returning - from - chile - a _ 2 0 2 2 _ clinical - cases - in _ p 2 _ img 1. jpeg )",
+      "start_token": 134,
+      "end_token": 178
+    }
+  ],
+  "images": [
+    "Processed\\images\\90---A-55-Year-Old-Couple-Both-Returning-from-Chile-a_2022_Clinical-Cases-in\\90---A-55-Year-Old-Couple-Both-Returning-from-Chile-a_2022_Clinical-Cases-in_p1_img1.jpeg",
+    "Processed\\images\\90---A-55-Year-Old-Couple-Both-Returning-from-Chile-a_2022_Clinical-Cases-in\\90---A-55-Year-Old-Couple-Both-Returning-from-Chile-a_2022_Clinical-Cases-in_p2_img1.jpeg"
+  ]
+}

@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/34---A-35-Year-Old-Male-Farmer-from-Peru-With-a-Chro_2022_Clinical-Cases-in-/34---A-35-Year-Old-Male-Farmer-from-Peru-With-a-Chro_2022_Clinical-Cases-in-_p1_img1.jpeg)
+![figure](..\images\34---A-35-Year-Old-Male-Farmer-from-Peru-With-a-Chro_2022_Clinical-Cases-in-\34---A-35-Year-Old-Male-Farmer-from-Peru-With-a-Chro_2022_Clinical-Cases-in-_p1_img1.jpeg)
 
-![figure](../images/34---A-35-Year-Old-Male-Farmer-from-Peru-With-a-Chro_2022_Clinical-Cases-in-/34---A-35-Year-Old-Male-Farmer-from-Peru-With-a-Chro_2022_Clinical-Cases-in-_p2_img1.jpeg)
+![figure](..\images\34---A-35-Year-Old-Male-Farmer-from-Peru-With-a-Chro_2022_Clinical-Cases-in-\34---A-35-Year-Old-Male-Farmer-from-Peru-With-a-Chro_2022_Clinical-Cases-in-_p2_img1.jpeg)
 

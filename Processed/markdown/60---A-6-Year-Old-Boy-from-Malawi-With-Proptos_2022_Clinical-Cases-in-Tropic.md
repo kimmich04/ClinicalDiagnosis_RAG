@@ -2,9 +2,9 @@
 
 ## Images
 
-![figure](../images/60---A-6-Year-Old-Boy-from-Malawi-With-Proptos_2022_Clinical-Cases-in-Tropic/60---A-6-Year-Old-Boy-from-Malawi-With-Proptos_2022_Clinical-Cases-in-Tropic_p1_img1.jpeg)
+![figure](..\images\60---A-6-Year-Old-Boy-from-Malawi-With-Proptos_2022_Clinical-Cases-in-Tropic\60---A-6-Year-Old-Boy-from-Malawi-With-Proptos_2022_Clinical-Cases-in-Tropic_p1_img1.jpeg)
 
-![figure](../images/60---A-6-Year-Old-Boy-from-Malawi-With-Proptos_2022_Clinical-Cases-in-Tropic/60---A-6-Year-Old-Boy-from-Malawi-With-Proptos_2022_Clinical-Cases-in-Tropic_p2_img1.jpeg)
+![figure](..\images\60---A-6-Year-Old-Boy-from-Malawi-With-Proptos_2022_Clinical-Cases-in-Tropic\60---A-6-Year-Old-Boy-from-Malawi-With-Proptos_2022_Clinical-Cases-in-Tropic_p2_img1.jpeg)
 
-![figure](../images/60---A-6-Year-Old-Boy-from-Malawi-With-Proptos_2022_Clinical-Cases-in-Tropic/60---A-6-Year-Old-Boy-from-Malawi-With-Proptos_2022_Clinical-Cases-in-Tropic_p2_img2.jpeg)
+![figure](..\images\60---A-6-Year-Old-Boy-from-Malawi-With-Proptos_2022_Clinical-Cases-in-Tropic\60---A-6-Year-Old-Boy-from-Malawi-With-Proptos_2022_Clinical-Cases-in-Tropic_p2_img2.jpeg)
 

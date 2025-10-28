@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/7---A-28-Year-Old-Male-Fisherman-from-Malawi-Wi_2022_Clinical-Cases-in-Tropi/7---A-28-Year-Old-Male-Fisherman-from-Malawi-Wi_2022_Clinical-Cases-in-Tropi_p1_img1.jpeg)
+![figure](..\images\7---A-28-Year-Old-Male-Fisherman-from-Malawi-Wi_2022_Clinical-Cases-in-Tropi\7---A-28-Year-Old-Male-Fisherman-from-Malawi-Wi_2022_Clinical-Cases-in-Tropi_p1_img1.jpeg)
 
-![figure](../images/7---A-28-Year-Old-Male-Fisherman-from-Malawi-Wi_2022_Clinical-Cases-in-Tropi/7---A-28-Year-Old-Male-Fisherman-from-Malawi-Wi_2022_Clinical-Cases-in-Tropi_p2_img1.jpeg)
+![figure](..\images\7---A-28-Year-Old-Male-Fisherman-from-Malawi-Wi_2022_Clinical-Cases-in-Tropi\7---A-28-Year-Old-Male-Fisherman-from-Malawi-Wi_2022_Clinical-Cases-in-Tropi_p2_img1.jpeg)
 

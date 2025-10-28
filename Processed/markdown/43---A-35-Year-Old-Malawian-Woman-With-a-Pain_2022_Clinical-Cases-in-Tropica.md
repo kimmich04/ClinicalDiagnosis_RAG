@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/43---A-35-Year-Old-Malawian-Woman-With-a-Pain_2022_Clinical-Cases-in-Tropica/43---A-35-Year-Old-Malawian-Woman-With-a-Pain_2022_Clinical-Cases-in-Tropica_p1_img1.jpeg)
+![figure](..\images\43---A-35-Year-Old-Malawian-Woman-With-a-Pain_2022_Clinical-Cases-in-Tropica\43---A-35-Year-Old-Malawian-Woman-With-a-Pain_2022_Clinical-Cases-in-Tropica_p1_img1.jpeg)
 
-![figure](../images/43---A-35-Year-Old-Malawian-Woman-With-a-Pain_2022_Clinical-Cases-in-Tropica/43---A-35-Year-Old-Malawian-Woman-With-a-Pain_2022_Clinical-Cases-in-Tropica_p2_img1.jpeg)
+![figure](..\images\43---A-35-Year-Old-Malawian-Woman-With-a-Pain_2022_Clinical-Cases-in-Tropica\43---A-35-Year-Old-Malawian-Woman-With-a-Pain_2022_Clinical-Cases-in-Tropica_p2_img1.jpeg)
 

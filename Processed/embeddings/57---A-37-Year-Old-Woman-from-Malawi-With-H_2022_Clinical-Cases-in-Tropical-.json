@@ -1,0 +1,23 @@
+{
+  "file": "57---A-37-Year-Old-Woman-from-Malawi-With-H_2022_Clinical-Cases-in-Tropical-.md",
+  "n_chunks": 2,
+  "text_embedding": "Processed\\embeddings\\57---A-37-Year-Old-Woman-from-Malawi-With-H_2022_Clinical-Cases-in-Tropical-_text.npy",
+  "image_embedding": "Processed\\embeddings\\57---A-37-Year-Old-Woman-from-Malawi-With-H_2022_Clinical-Cases-in-Tropical-_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ 5 7 --- a - 3 7 - year - old - woman - from - malawi - with - h _ 2 0 2 2 _ clinical - cases - in - tropical -\\ 5 7 --- a - 3 7 - year - old - woman - from - malawi - with - h _ 2 0 2 2 _ clinical - cases",
+      "start_token": 0,
+      "end_token": 77
+    },
+    {
+      "id": 1,
+      "text": "h _ 2 0 2 2 _ clinical - cases - in - tropical -_ p 2 _ img 1. jpeg )",
+      "start_token": 67,
+      "end_token": 92
+    }
+  ],
+  "images": [
+    "Processed\\images\\57---A-37-Year-Old-Woman-from-Malawi-With-H_2022_Clinical-Cases-in-Tropical-\\57---A-37-Year-Old-Woman-from-Malawi-With-H_2022_Clinical-Cases-in-Tropical-_p2_img1.jpeg"
+  ]
+}

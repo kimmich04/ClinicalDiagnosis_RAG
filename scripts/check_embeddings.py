@@ -5,7 +5,7 @@ check_embeddings.py
 Quick validator for saved numpy embeddings produced by embedding_clip.py
 
 Usage:
-  python scripts/check_embeddings.py --emb-dir Processed_embeddings/embeddings --sample 5
+  python scripts/check_embeddings.py --emb-dir Processed/embeddings --sample 5
 """
 from __future__ import annotations
 import argparse

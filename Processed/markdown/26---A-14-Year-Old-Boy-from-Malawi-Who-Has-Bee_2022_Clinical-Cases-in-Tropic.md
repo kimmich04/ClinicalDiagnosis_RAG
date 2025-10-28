@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/26---A-14-Year-Old-Boy-from-Malawi-Who-Has-Bee_2022_Clinical-Cases-in-Tropic/26---A-14-Year-Old-Boy-from-Malawi-Who-Has-Bee_2022_Clinical-Cases-in-Tropic_p1_img1.jpeg)
+![figure](..\images\26---A-14-Year-Old-Boy-from-Malawi-Who-Has-Bee_2022_Clinical-Cases-in-Tropic\26---A-14-Year-Old-Boy-from-Malawi-Who-Has-Bee_2022_Clinical-Cases-in-Tropic_p1_img1.jpeg)
 
-![figure](../images/26---A-14-Year-Old-Boy-from-Malawi-Who-Has-Bee_2022_Clinical-Cases-in-Tropic/26---A-14-Year-Old-Boy-from-Malawi-Who-Has-Bee_2022_Clinical-Cases-in-Tropic_p2_img1.jpeg)
+![figure](..\images\26---A-14-Year-Old-Boy-from-Malawi-Who-Has-Bee_2022_Clinical-Cases-in-Tropic\26---A-14-Year-Old-Boy-from-Malawi-Who-Has-Bee_2022_Clinical-Cases-in-Tropic_p2_img1.jpeg)
 

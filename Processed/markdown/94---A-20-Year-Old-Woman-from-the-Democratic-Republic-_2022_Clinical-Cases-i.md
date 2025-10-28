@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/94---A-20-Year-Old-Woman-from-the-Democratic-Republic-_2022_Clinical-Cases-i/94---A-20-Year-Old-Woman-from-the-Democratic-Republic-_2022_Clinical-Cases-i_p1_img1.jpeg)
+![figure](..\images\94---A-20-Year-Old-Woman-from-the-Democratic-Republic-_2022_Clinical-Cases-i\94---A-20-Year-Old-Woman-from-the-Democratic-Republic-_2022_Clinical-Cases-i_p1_img1.jpeg)
 
-![figure](../images/94---A-20-Year-Old-Woman-from-the-Democratic-Republic-_2022_Clinical-Cases-i/94---A-20-Year-Old-Woman-from-the-Democratic-Republic-_2022_Clinical-Cases-i_p3_img1.jpeg)
+![figure](..\images\94---A-20-Year-Old-Woman-from-the-Democratic-Republic-_2022_Clinical-Cases-i\94---A-20-Year-Old-Woman-from-the-Democratic-Republic-_2022_Clinical-Cases-i_p3_img1.jpeg)
 

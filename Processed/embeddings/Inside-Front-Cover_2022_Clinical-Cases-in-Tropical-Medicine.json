@@ -1,0 +1,17 @@
+{
+  "file": "Inside-Front-Cover_2022_Clinical-Cases-in-Tropical-Medicine.md",
+  "n_chunks": 1,
+  "text_embedding": "Processed\\embeddings\\Inside-Front-Cover_2022_Clinical-Cases-in-Tropical-Medicine_text.npy",
+  "image_embedding": "Processed\\embeddings\\Inside-Front-Cover_2022_Clinical-Cases-in-Tropical-Medicine_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ inside - front - cover _ 2 0 2 2 _ clinical - cases - in - tropical - medicine \\ inside - front - cover _ 2 0 2 2 _ clinical - cases - in - tropical - medicine _ p 1 _ img 1. jpeg )",
+      "start_token": 0,
+      "end_token": 62
+    }
+  ],
+  "images": [
+    "Processed\\images\\Inside-Front-Cover_2022_Clinical-Cases-in-Tropical-Medicine\\Inside-Front-Cover_2022_Clinical-Cases-in-Tropical-Medicine_p1_img1.jpeg"
+  ]
+}

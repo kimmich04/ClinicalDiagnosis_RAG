@@ -1,0 +1,30 @@
+{
+  "file": "25---A-72-Year-Old-Male-Farmer-from-Laos-With-Exte_2022_Clinical-Cases-in-Tr.md",
+  "n_chunks": 3,
+  "text_embedding": "Processed\\embeddings\\25---A-72-Year-Old-Male-Farmer-from-Laos-With-Exte_2022_Clinical-Cases-in-Tr_text.npy",
+  "image_embedding": "Processed\\embeddings\\25---A-72-Year-Old-Male-Farmer-from-Laos-With-Exte_2022_Clinical-Cases-in-Tr_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ 2 5 --- a - 7 2 - year - old - male - farmer - from - laos - with - exte _ 2 0 2 2 _ clinical - cases - in - tr \\ 2 5 --- a - 7 2 - year - old - male - farmer - from - laos - with - exte _ 2 0 2",
+      "start_token": 0,
+      "end_token": 77
+    },
+    {
+      "id": 1,
+      "text": "laos - with - exte _ 2 0 2 2 _ clinical - cases - in - tr _ p 1 _ img 1. jpeg )![ figure ](..\\ images \\ 2 5 --- a - 7 2 - year - old - male - farmer - from - laos - with - exte _ 2 0 2 2 _ clinical - cases - in - tr \\ 2",
+      "start_token": 67,
+      "end_token": 144
+    },
+    {
+      "id": 2,
+      "text": "_ clinical - cases - in - tr \\ 2 5 --- a - 7 2 - year - old - male - farmer - from - laos - with - exte _ 2 0 2 2 _ clinical - cases - in - tr _ p 2 _ img 1. jpeg )",
+      "start_token": 134,
+      "end_token": 190
+    }
+  ],
+  "images": [
+    "Processed\\images\\25---A-72-Year-Old-Male-Farmer-from-Laos-With-Exte_2022_Clinical-Cases-in-Tr\\25---A-72-Year-Old-Male-Farmer-from-Laos-With-Exte_2022_Clinical-Cases-in-Tr_p1_img1.jpeg",
+    "Processed\\images\\25---A-72-Year-Old-Male-Farmer-from-Laos-With-Exte_2022_Clinical-Cases-in-Tr\\25---A-72-Year-Old-Male-Farmer-from-Laos-With-Exte_2022_Clinical-Cases-in-Tr_p2_img1.jpeg"
+  ]
+}

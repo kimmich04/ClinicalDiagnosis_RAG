@@ -1,0 +1,30 @@
+{
+  "file": "65---A-4-Year-Old-Girl-from-Bolivia-With-a-Dar_2022_Clinical-Cases-in-Tropic.md",
+  "n_chunks": 3,
+  "text_embedding": "Processed\\embeddings\\65---A-4-Year-Old-Girl-from-Bolivia-With-a-Dar_2022_Clinical-Cases-in-Tropic_text.npy",
+  "image_embedding": "Processed\\embeddings\\65---A-4-Year-Old-Girl-from-Bolivia-With-a-Dar_2022_Clinical-Cases-in-Tropic_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ 6 5 --- a - 4 - year - old - girl - from - bolivia - with - a - dar _ 2 0 2 2 _ clinical - cases - in - tropic \\ 6 5 --- a - 4 - year - old - girl - from - bolivia - with - a - dar _ 2 0 2 2 _ clinical -",
+      "start_token": 0,
+      "end_token": 77
+    },
+    {
+      "id": 1,
+      "text": "- dar _ 2 0 2 2 _ clinical - cases - in - tropic _ p 1 _ img 1. jpeg )![ figure ](..\\ images \\ 6 5 --- a - 4 - year - old - girl - from - bolivia - with - a - dar _ 2 0 2 2 _ clinical - cases - in - tropic \\ 6 5 --- a - 4 -",
+      "start_token": 67,
+      "end_token": 144
+    },
+    {
+      "id": 2,
+      "text": "- tropic \\ 6 5 --- a - 4 - year - old - girl - from - bolivia - with - a - dar _ 2 0 2 2 _ clinical - cases - in - tropic _ p 1 _ img 2. jpeg )",
+      "start_token": 134,
+      "end_token": 182
+    }
+  ],
+  "images": [
+    "Processed\\images\\65---A-4-Year-Old-Girl-from-Bolivia-With-a-Dar_2022_Clinical-Cases-in-Tropic\\65---A-4-Year-Old-Girl-from-Bolivia-With-a-Dar_2022_Clinical-Cases-in-Tropic_p1_img1.jpeg",
+    "Processed\\images\\65---A-4-Year-Old-Girl-from-Bolivia-With-a-Dar_2022_Clinical-Cases-in-Tropic\\65---A-4-Year-Old-Girl-from-Bolivia-With-a-Dar_2022_Clinical-Cases-in-Tropic_p1_img2.jpeg"
+  ]
+}

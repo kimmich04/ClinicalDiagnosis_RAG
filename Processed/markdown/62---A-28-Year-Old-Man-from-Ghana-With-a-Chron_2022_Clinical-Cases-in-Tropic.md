@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/62---A-28-Year-Old-Man-from-Ghana-With-a-Chron_2022_Clinical-Cases-in-Tropic/62---A-28-Year-Old-Man-from-Ghana-With-a-Chron_2022_Clinical-Cases-in-Tropic_p1_img1.jpeg)
+![figure](..\images\62---A-28-Year-Old-Man-from-Ghana-With-a-Chron_2022_Clinical-Cases-in-Tropic\62---A-28-Year-Old-Man-from-Ghana-With-a-Chron_2022_Clinical-Cases-in-Tropic_p1_img1.jpeg)
 
-![figure](../images/62---A-28-Year-Old-Man-from-Ghana-With-a-Chron_2022_Clinical-Cases-in-Tropic/62---A-28-Year-Old-Man-from-Ghana-With-a-Chron_2022_Clinical-Cases-in-Tropic_p2_img1.jpeg)
+![figure](..\images\62---A-28-Year-Old-Man-from-Ghana-With-a-Chron_2022_Clinical-Cases-in-Tropic\62---A-28-Year-Old-Man-from-Ghana-With-a-Chron_2022_Clinical-Cases-in-Tropic_p2_img1.jpeg)
 

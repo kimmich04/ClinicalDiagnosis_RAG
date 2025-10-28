@@ -2,5 +2,5 @@
 
 ## Images
 
-![figure](../images/15---A-3-Year-Old-Boy-from-Laos-With-Right-Sup_2022_Clinical-Cases-in-Tropic/15---A-3-Year-Old-Boy-from-Laos-With-Right-Sup_2022_Clinical-Cases-in-Tropic_p1_img1.jpeg)
+![figure](..\images\15---A-3-Year-Old-Boy-from-Laos-With-Right-Sup_2022_Clinical-Cases-in-Tropic\15---A-3-Year-Old-Boy-from-Laos-With-Right-Sup_2022_Clinical-Cases-in-Tropic_p1_img1.jpeg)
 

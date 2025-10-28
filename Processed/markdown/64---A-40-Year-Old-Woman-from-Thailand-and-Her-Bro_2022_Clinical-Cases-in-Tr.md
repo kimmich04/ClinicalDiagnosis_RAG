@@ -2,5 +2,5 @@
 
 ## Images
 
-![figure](../images/64---A-40-Year-Old-Woman-from-Thailand-and-Her-Bro_2022_Clinical-Cases-in-Tr/64---A-40-Year-Old-Woman-from-Thailand-and-Her-Bro_2022_Clinical-Cases-in-Tr_p2_img1.jpeg)
+![figure](..\images\64---A-40-Year-Old-Woman-from-Thailand-and-Her-Bro_2022_Clinical-Cases-in-Tr\64---A-40-Year-Old-Woman-from-Thailand-and-Her-Bro_2022_Clinical-Cases-in-Tr_p2_img1.jpeg)
 

@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/52---A-56-Year-Old-Man-from-Peru-With-Prolonged-_2022_Clinical-Cases-in-Trop/52---A-56-Year-Old-Man-from-Peru-With-Prolonged-_2022_Clinical-Cases-in-Trop_p2_img1.jpeg)
+![figure](..\images\52---A-56-Year-Old-Man-from-Peru-With-Prolonged-_2022_Clinical-Cases-in-Trop\52---A-56-Year-Old-Man-from-Peru-With-Prolonged-_2022_Clinical-Cases-in-Trop_p2_img1.jpeg)
 
-![figure](../images/52---A-56-Year-Old-Man-from-Peru-With-Prolonged-_2022_Clinical-Cases-in-Trop/52---A-56-Year-Old-Man-from-Peru-With-Prolonged-_2022_Clinical-Cases-in-Trop_p2_img2.jpeg)
+![figure](..\images\52---A-56-Year-Old-Man-from-Peru-With-Prolonged-_2022_Clinical-Cases-in-Trop\52---A-56-Year-Old-Man-from-Peru-With-Prolonged-_2022_Clinical-Cases-in-Trop_p2_img2.jpeg)
 

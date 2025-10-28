@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/25---A-72-Year-Old-Male-Farmer-from-Laos-With-Exte_2022_Clinical-Cases-in-Tr/25---A-72-Year-Old-Male-Farmer-from-Laos-With-Exte_2022_Clinical-Cases-in-Tr_p1_img1.jpeg)
+![figure](..\images\25---A-72-Year-Old-Male-Farmer-from-Laos-With-Exte_2022_Clinical-Cases-in-Tr\25---A-72-Year-Old-Male-Farmer-from-Laos-With-Exte_2022_Clinical-Cases-in-Tr_p1_img1.jpeg)
 
-![figure](../images/25---A-72-Year-Old-Male-Farmer-from-Laos-With-Exte_2022_Clinical-Cases-in-Tr/25---A-72-Year-Old-Male-Farmer-from-Laos-With-Exte_2022_Clinical-Cases-in-Tr_p2_img1.jpeg)
+![figure](..\images\25---A-72-Year-Old-Male-Farmer-from-Laos-With-Exte_2022_Clinical-Cases-in-Tr\25---A-72-Year-Old-Male-Farmer-from-Laos-With-Exte_2022_Clinical-Cases-in-Tr_p2_img1.jpeg)
 

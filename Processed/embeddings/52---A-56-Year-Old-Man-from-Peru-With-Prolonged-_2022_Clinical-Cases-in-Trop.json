@@ -1,0 +1,30 @@
+{
+  "file": "52---A-56-Year-Old-Man-from-Peru-With-Prolonged-_2022_Clinical-Cases-in-Trop.md",
+  "n_chunks": 3,
+  "text_embedding": "Processed\\embeddings\\52---A-56-Year-Old-Man-from-Peru-With-Prolonged-_2022_Clinical-Cases-in-Trop_text.npy",
+  "image_embedding": "Processed\\embeddings\\52---A-56-Year-Old-Man-from-Peru-With-Prolonged-_2022_Clinical-Cases-in-Trop_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ 5 2 --- a - 5 6 - year - old - man - from - peru - with - prolonged -_ 2 0 2 2 _ clinical - cases - in - trop \\ 5 2 --- a - 5 6 - year - old - man - from - peru - with - prolonged -_ 2 0 2 2 _ clinical -",
+      "start_token": 0,
+      "end_token": 77
+    },
+    {
+      "id": 1,
+      "text": "prolonged -_ 2 0 2 2 _ clinical - cases - in - trop _ p 2 _ img 1. jpeg )![ figure ](..\\ images \\ 5 2 --- a - 5 6 - year - old - man - from - peru - with - prolonged -_ 2 0 2 2 _ clinical - cases - in - trop \\ 5 2 --- a - 5 6",
+      "start_token": 67,
+      "end_token": 144
+    },
+    {
+      "id": 2,
+      "text": "- trop \\ 5 2 --- a - 5 6 - year - old - man - from - peru - with - prolonged -_ 2 0 2 2 _ clinical - cases - in - trop _ p 2 _ img 2. jpeg )",
+      "start_token": 134,
+      "end_token": 182
+    }
+  ],
+  "images": [
+    "Processed\\images\\52---A-56-Year-Old-Man-from-Peru-With-Prolonged-_2022_Clinical-Cases-in-Trop\\52---A-56-Year-Old-Man-from-Peru-With-Prolonged-_2022_Clinical-Cases-in-Trop_p2_img1.jpeg",
+    "Processed\\images\\52---A-56-Year-Old-Man-from-Peru-With-Prolonged-_2022_Clinical-Cases-in-Trop\\52---A-56-Year-Old-Man-from-Peru-With-Prolonged-_2022_Clinical-Cases-in-Trop_p2_img2.jpeg"
+  ]
+}

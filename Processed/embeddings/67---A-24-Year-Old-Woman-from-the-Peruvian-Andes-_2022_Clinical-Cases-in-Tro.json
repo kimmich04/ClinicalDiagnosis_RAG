@@ -1,0 +1,30 @@
+{
+  "file": "67---A-24-Year-Old-Woman-from-the-Peruvian-Andes-_2022_Clinical-Cases-in-Tro.md",
+  "n_chunks": 3,
+  "text_embedding": "Processed\\embeddings\\67---A-24-Year-Old-Woman-from-the-Peruvian-Andes-_2022_Clinical-Cases-in-Tro_text.npy",
+  "image_embedding": "Processed\\embeddings\\67---A-24-Year-Old-Woman-from-the-Peruvian-Andes-_2022_Clinical-Cases-in-Tro_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ 6 7 --- a - 2 4 - year - old - woman - from - the - peruvian - andes -_ 2 0 2 2 _ clinical - cases - in - tro \\ 6 7 --- a - 2 4 - year - old - woman - from - the - peruvian - andes -_ 2 0 2 2 _ clinical -",
+      "start_token": 0,
+      "end_token": 77
+    },
+    {
+      "id": 1,
+      "text": "andes -_ 2 0 2 2 _ clinical - cases - in - tro _ p 2 _ img 1. jpeg )![ figure ](..\\ images \\ 6 7 --- a - 2 4 - year - old - woman - from - the - peruvian - andes -_ 2 0 2 2 _ clinical - cases - in - tro \\ 6 7 --- a - 2 4",
+      "start_token": 67,
+      "end_token": 144
+    },
+    {
+      "id": 2,
+      "text": "- tro \\ 6 7 --- a - 2 4 - year - old - woman - from - the - peruvian - andes -_ 2 0 2 2 _ clinical - cases - in - tro _ p 2 _ img 2. jpeg )",
+      "start_token": 134,
+      "end_token": 182
+    }
+  ],
+  "images": [
+    "Processed\\images\\67---A-24-Year-Old-Woman-from-the-Peruvian-Andes-_2022_Clinical-Cases-in-Tro\\67---A-24-Year-Old-Woman-from-the-Peruvian-Andes-_2022_Clinical-Cases-in-Tro_p2_img1.jpeg",
+    "Processed\\images\\67---A-24-Year-Old-Woman-from-the-Peruvian-Andes-_2022_Clinical-Cases-in-Tro\\67---A-24-Year-Old-Woman-from-the-Peruvian-Andes-_2022_Clinical-Cases-in-Tro_p2_img2.jpeg"
+  ]
+}

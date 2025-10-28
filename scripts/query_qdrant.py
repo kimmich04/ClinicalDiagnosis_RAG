@@ -5,7 +5,7 @@ query_qdrant.py
 Query the Qdrant collection using a sample vector from the embeddings folder.
 
 Usage:
-  python scripts/query_qdrant.py --emb-dir Processed_embeddings/embeddings --collection documents --k 5
+  python scripts/query_qdrant.py --emb-dir Processed/embeddings --collection documents --k 5
 """
 from __future__ import annotations
 import argparse
@@ -17,7 +17,7 @@ import re
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--emb-dir', default='Processed_embeddings/embeddings')
+    parser.add_argument('--emb-dir', default='Processed/embeddings')
     parser.add_argument('--collection', default='documents')
     parser.add_argument('--k', type=int, default=5)
     parser.add_argument('--sample', type=int, default=0, help='Index of vector inside sample file to query')

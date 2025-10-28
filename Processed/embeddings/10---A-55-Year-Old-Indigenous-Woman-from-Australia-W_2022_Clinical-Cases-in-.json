@@ -1,0 +1,30 @@
+{
+  "file": "10---A-55-Year-Old-Indigenous-Woman-from-Australia-W_2022_Clinical-Cases-in-.md",
+  "n_chunks": 3,
+  "text_embedding": "Processed\\embeddings\\10---A-55-Year-Old-Indigenous-Woman-from-Australia-W_2022_Clinical-Cases-in-_text.npy",
+  "image_embedding": "Processed\\embeddings\\10---A-55-Year-Old-Indigenous-Woman-from-Australia-W_2022_Clinical-Cases-in-_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ 1 0 --- a - 5 5 - year - old - indigenous - woman - from - australia - w _ 2 0 2 2 _ clinical - cases - in -\\ 1 0 --- a - 5 5 - year - old - indigenous - woman - from - australia - w _ 2 0 2 2 _ clinical - cases - in",
+      "start_token": 0,
+      "end_token": 77
+    },
+    {
+      "id": 1,
+      "text": "2 0 2 2 _ clinical - cases - in -_ p 1 _ img 1. jpeg )![ figure ](..\\ images \\ 1 0 --- a - 5 5 - year - old - indigenous - woman - from - australia - w _ 2 0 2 2 _ clinical - cases - in -\\ 1 0 --- a - 5 5 - year - old - indigenous",
+      "start_token": 67,
+      "end_token": 144
+    },
+    {
+      "id": 2,
+      "text": "a - 5 5 - year - old - indigenous - woman - from - australia - w _ 2 0 2 2 _ clinical - cases - in -_ p 2 _ img 1. jpeg )",
+      "start_token": 134,
+      "end_token": 174
+    }
+  ],
+  "images": [
+    "Processed\\images\\10---A-55-Year-Old-Indigenous-Woman-from-Australia-W_2022_Clinical-Cases-in-\\10---A-55-Year-Old-Indigenous-Woman-from-Australia-W_2022_Clinical-Cases-in-_p1_img1.jpeg",
+    "Processed\\images\\10---A-55-Year-Old-Indigenous-Woman-from-Australia-W_2022_Clinical-Cases-in-\\10---A-55-Year-Old-Indigenous-Woman-from-Australia-W_2022_Clinical-Cases-in-_p2_img1.jpeg"
+  ]
+}

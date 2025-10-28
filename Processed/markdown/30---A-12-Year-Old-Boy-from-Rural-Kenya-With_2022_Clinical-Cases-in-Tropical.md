@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/30---A-12-Year-Old-Boy-from-Rural-Kenya-With_2022_Clinical-Cases-in-Tropical/30---A-12-Year-Old-Boy-from-Rural-Kenya-With_2022_Clinical-Cases-in-Tropical_p1_img1.jpeg)
+![figure](..\images\30---A-12-Year-Old-Boy-from-Rural-Kenya-With_2022_Clinical-Cases-in-Tropical\30---A-12-Year-Old-Boy-from-Rural-Kenya-With_2022_Clinical-Cases-in-Tropical_p1_img1.jpeg)
 
-![figure](../images/30---A-12-Year-Old-Boy-from-Rural-Kenya-With_2022_Clinical-Cases-in-Tropical/30---A-12-Year-Old-Boy-from-Rural-Kenya-With_2022_Clinical-Cases-in-Tropical_p2_img1.jpeg)
+![figure](..\images\30---A-12-Year-Old-Boy-from-Rural-Kenya-With_2022_Clinical-Cases-in-Tropical\30---A-12-Year-Old-Boy-from-Rural-Kenya-With_2022_Clinical-Cases-in-Tropical_p2_img1.jpeg)
 

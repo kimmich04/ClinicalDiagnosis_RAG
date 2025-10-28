@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/90---A-55-Year-Old-Couple-Both-Returning-from-Chile-a_2022_Clinical-Cases-in/90---A-55-Year-Old-Couple-Both-Returning-from-Chile-a_2022_Clinical-Cases-in_p1_img1.jpeg)
+![figure](..\images\90---A-55-Year-Old-Couple-Both-Returning-from-Chile-a_2022_Clinical-Cases-in\90---A-55-Year-Old-Couple-Both-Returning-from-Chile-a_2022_Clinical-Cases-in_p1_img1.jpeg)
 
-![figure](../images/90---A-55-Year-Old-Couple-Both-Returning-from-Chile-a_2022_Clinical-Cases-in/90---A-55-Year-Old-Couple-Both-Returning-from-Chile-a_2022_Clinical-Cases-in_p2_img1.jpeg)
+![figure](..\images\90---A-55-Year-Old-Couple-Both-Returning-from-Chile-a_2022_Clinical-Cases-in\90---A-55-Year-Old-Couple-Both-Returning-from-Chile-a_2022_Clinical-Cases-in_p2_img1.jpeg)
 

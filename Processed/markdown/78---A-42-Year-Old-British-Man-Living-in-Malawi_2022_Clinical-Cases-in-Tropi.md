@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/78---A-42-Year-Old-British-Man-Living-in-Malawi_2022_Clinical-Cases-in-Tropi/78---A-42-Year-Old-British-Man-Living-in-Malawi_2022_Clinical-Cases-in-Tropi_p1_img1.jpeg)
+![figure](..\images\78---A-42-Year-Old-British-Man-Living-in-Malawi_2022_Clinical-Cases-in-Tropi\78---A-42-Year-Old-British-Man-Living-in-Malawi_2022_Clinical-Cases-in-Tropi_p1_img1.jpeg)
 
-![figure](../images/78---A-42-Year-Old-British-Man-Living-in-Malawi_2022_Clinical-Cases-in-Tropi/78---A-42-Year-Old-British-Man-Living-in-Malawi_2022_Clinical-Cases-in-Tropi_p2_img1.jpeg)
+![figure](..\images\78---A-42-Year-Old-British-Man-Living-in-Malawi_2022_Clinical-Cases-in-Tropi\78---A-42-Year-Old-British-Man-Living-in-Malawi_2022_Clinical-Cases-in-Tropi_p2_img1.jpeg)
 

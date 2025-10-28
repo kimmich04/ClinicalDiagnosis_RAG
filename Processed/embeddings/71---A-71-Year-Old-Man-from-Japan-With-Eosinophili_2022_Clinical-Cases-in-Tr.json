@@ -1,0 +1,63 @@
+{
+  "file": "71---A-71-Year-Old-Man-from-Japan-With-Eosinophili_2022_Clinical-Cases-in-Tr.md",
+  "n_chunks": 8,
+  "text_embedding": "Processed\\embeddings\\71---A-71-Year-Old-Man-from-Japan-With-Eosinophili_2022_Clinical-Cases-in-Tr_text.npy",
+  "image_embedding": "Processed\\embeddings\\71---A-71-Year-Old-Man-from-Japan-With-Eosinophili_2022_Clinical-Cases-in-Tr_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ 7 1 --- a - 7 1 - year - old - man - from - japan - with - eosinophili _ 2 0 2 2 _ clinical - cases - in - tr \\ 7 1 --- a - 7 1 - year - old - man - from - japan - with - eosinophili _ 2",
+      "start_token": 0,
+      "end_token": 77
+    },
+    {
+      "id": 1,
+      "text": "- with - eosinophili _ 2 0 2 2 _ clinical - cases - in - tr _ p 2 _ img 1. jpeg )![ figure ](..\\ images \\ 7 1 --- a - 7 1 - year - old - man - from - japan - with - eosinophili _ 2 0 2 2 _ clinical - cases - in -",
+      "start_token": 67,
+      "end_token": 144
+    },
+    {
+      "id": 2,
+      "text": "0 2 2 _ clinical - cases - in - tr \\ 7 1 --- a - 7 1 - year - old - man - from - japan - with - eosinophili _ 2 0 2 2 _ clinical - cases - in - tr _ p 3 _ img 1. jpeg )![ figure ](..\\ images \\ 7 1 --- a - 7 1 -",
+      "start_token": 134,
+      "end_token": 211
+    },
+    {
+      "id": 3,
+      "text": "images \\ 7 1 --- a - 7 1 - year - old - man - from - japan - with - eosinophili _ 2 0 2 2 _ clinical - cases - in - tr \\ 7 1 --- a - 7 1 - year - old - man - from - japan - with - eosinophili _ 2 0 2 2 _ clinical - cases - in",
+      "start_token": 201,
+      "end_token": 278
+    },
+    {
+      "id": 4,
+      "text": "2 0 2 2 _ clinical - cases - in - tr _ p 3 _ img 2. jpeg )![ figure ](..\\ images \\ 7 1 --- a - 7 1 - year - old - man - from - japan - with - eosinophili _ 2 0 2 2 _ clinical - cases - in - tr \\ 7 1 --- a - 7 1",
+      "start_token": 268,
+      "end_token": 345
+    },
+    {
+      "id": 5,
+      "text": "- tr \\ 7 1 --- a - 7 1 - year - old - man - from - japan - with - eosinophili _ 2 0 2 2 _ clinical - cases - in - tr _ p 4 _ img 1. jpeg )![ figure ](..\\ images \\ 7 1 --- a - 7 1 - year - old - man - from - japan",
+      "start_token": 335,
+      "end_token": 412
+    },
+    {
+      "id": 6,
+      "text": "- year - old - man - from - japan - with - eosinophili _ 2 0 2 2 _ clinical - cases - in - tr \\ 7 1 --- a - 7 1 - year - old - man - from - japan - with - eosinophili _ 2 0 2 2 _ clinical - cases - in - tr _ p 4 _ img 2.",
+      "start_token": 402,
+      "end_token": 479
+    },
+    {
+      "id": 7,
+      "text": "in - tr _ p 4 _ img 2. jpeg )",
+      "start_token": 469,
+      "end_token": 482
+    }
+  ],
+  "images": [
+    "Processed\\images\\71---A-71-Year-Old-Man-from-Japan-With-Eosinophili_2022_Clinical-Cases-in-Tr\\71---A-71-Year-Old-Man-from-Japan-With-Eosinophili_2022_Clinical-Cases-in-Tr_p2_img1.jpeg",
+    "Processed\\images\\71---A-71-Year-Old-Man-from-Japan-With-Eosinophili_2022_Clinical-Cases-in-Tr\\71---A-71-Year-Old-Man-from-Japan-With-Eosinophili_2022_Clinical-Cases-in-Tr_p3_img1.jpeg",
+    "Processed\\images\\71---A-71-Year-Old-Man-from-Japan-With-Eosinophili_2022_Clinical-Cases-in-Tr\\71---A-71-Year-Old-Man-from-Japan-With-Eosinophili_2022_Clinical-Cases-in-Tr_p3_img2.jpeg",
+    "Processed\\images\\71---A-71-Year-Old-Man-from-Japan-With-Eosinophili_2022_Clinical-Cases-in-Tr\\71---A-71-Year-Old-Man-from-Japan-With-Eosinophili_2022_Clinical-Cases-in-Tr_p4_img1.jpeg",
+    "Processed\\images\\71---A-71-Year-Old-Man-from-Japan-With-Eosinophili_2022_Clinical-Cases-in-Tr\\71---A-71-Year-Old-Man-from-Japan-With-Eosinophili_2022_Clinical-Cases-in-Tr_p4_img2.jpeg"
+  ]
+}

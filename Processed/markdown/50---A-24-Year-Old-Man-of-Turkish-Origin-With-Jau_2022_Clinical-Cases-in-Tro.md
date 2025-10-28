@@ -2,9 +2,9 @@
 
 ## Images
 
-![figure](../images/50---A-24-Year-Old-Man-of-Turkish-Origin-With-Jau_2022_Clinical-Cases-in-Tro/50---A-24-Year-Old-Man-of-Turkish-Origin-With-Jau_2022_Clinical-Cases-in-Tro_p1_img1.jpeg)
+![figure](..\images\50---A-24-Year-Old-Man-of-Turkish-Origin-With-Jau_2022_Clinical-Cases-in-Tro\50---A-24-Year-Old-Man-of-Turkish-Origin-With-Jau_2022_Clinical-Cases-in-Tro_p1_img1.jpeg)
 
-![figure](../images/50---A-24-Year-Old-Man-of-Turkish-Origin-With-Jau_2022_Clinical-Cases-in-Tro/50---A-24-Year-Old-Man-of-Turkish-Origin-With-Jau_2022_Clinical-Cases-in-Tro_p1_img2.jpeg)
+![figure](..\images\50---A-24-Year-Old-Man-of-Turkish-Origin-With-Jau_2022_Clinical-Cases-in-Tro\50---A-24-Year-Old-Man-of-Turkish-Origin-With-Jau_2022_Clinical-Cases-in-Tro_p1_img2.jpeg)
 
-![figure](../images/50---A-24-Year-Old-Man-of-Turkish-Origin-With-Jau_2022_Clinical-Cases-in-Tro/50---A-24-Year-Old-Man-of-Turkish-Origin-With-Jau_2022_Clinical-Cases-in-Tro_p2_img1.jpeg)
+![figure](..\images\50---A-24-Year-Old-Man-of-Turkish-Origin-With-Jau_2022_Clinical-Cases-in-Tro\50---A-24-Year-Old-Man-of-Turkish-Origin-With-Jau_2022_Clinical-Cases-in-Tro_p2_img1.jpeg)
 

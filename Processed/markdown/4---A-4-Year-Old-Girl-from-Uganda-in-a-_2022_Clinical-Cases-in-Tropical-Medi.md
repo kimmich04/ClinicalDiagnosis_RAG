@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/4---A-4-Year-Old-Girl-from-Uganda-in-a-_2022_Clinical-Cases-in-Tropical-Medi/4---A-4-Year-Old-Girl-from-Uganda-in-a-_2022_Clinical-Cases-in-Tropical-Medi_p2_img1.jpeg)
+![figure](..\images\4---A-4-Year-Old-Girl-from-Uganda-in-a-_2022_Clinical-Cases-in-Tropical-Medi\4---A-4-Year-Old-Girl-from-Uganda-in-a-_2022_Clinical-Cases-in-Tropical-Medi_p2_img1.jpeg)
 
-![figure](../images/4---A-4-Year-Old-Girl-from-Uganda-in-a-_2022_Clinical-Cases-in-Tropical-Medi/4---A-4-Year-Old-Girl-from-Uganda-in-a-_2022_Clinical-Cases-in-Tropical-Medi_p2_img2.jpeg)
+![figure](..\images\4---A-4-Year-Old-Girl-from-Uganda-in-a-_2022_Clinical-Cases-in-Tropical-Medi\4---A-4-Year-Old-Girl-from-Uganda-in-a-_2022_Clinical-Cases-in-Tropical-Medi_p2_img2.jpeg)
 

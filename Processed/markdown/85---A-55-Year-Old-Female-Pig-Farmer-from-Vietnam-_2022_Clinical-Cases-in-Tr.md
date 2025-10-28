@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/85---A-55-Year-Old-Female-Pig-Farmer-from-Vietnam-_2022_Clinical-Cases-in-Tr/85---A-55-Year-Old-Female-Pig-Farmer-from-Vietnam-_2022_Clinical-Cases-in-Tr_p1_img1.jpeg)
+![figure](..\images\85---A-55-Year-Old-Female-Pig-Farmer-from-Vietnam-_2022_Clinical-Cases-in-Tr\85---A-55-Year-Old-Female-Pig-Farmer-from-Vietnam-_2022_Clinical-Cases-in-Tr_p1_img1.jpeg)
 
-![figure](../images/85---A-55-Year-Old-Female-Pig-Farmer-from-Vietnam-_2022_Clinical-Cases-in-Tr/85---A-55-Year-Old-Female-Pig-Farmer-from-Vietnam-_2022_Clinical-Cases-in-Tr_p1_img2.jpeg)
+![figure](..\images\85---A-55-Year-Old-Female-Pig-Farmer-from-Vietnam-_2022_Clinical-Cases-in-Tr\85---A-55-Year-Old-Female-Pig-Farmer-from-Vietnam-_2022_Clinical-Cases-in-Tr_p1_img2.jpeg)
 

@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/17---A-34-Year-Old-Man-from-Thailand-With-Feve_2022_Clinical-Cases-in-Tropic/17---A-34-Year-Old-Man-from-Thailand-With-Feve_2022_Clinical-Cases-in-Tropic_p1_img1.jpeg)
+![figure](..\images\17---A-34-Year-Old-Man-from-Thailand-With-Feve_2022_Clinical-Cases-in-Tropic\17---A-34-Year-Old-Man-from-Thailand-With-Feve_2022_Clinical-Cases-in-Tropic_p1_img1.jpeg)
 
-![figure](../images/17---A-34-Year-Old-Man-from-Thailand-With-Feve_2022_Clinical-Cases-in-Tropic/17---A-34-Year-Old-Man-from-Thailand-With-Feve_2022_Clinical-Cases-in-Tropic_p2_img1.jpeg)
+![figure](..\images\17---A-34-Year-Old-Man-from-Thailand-With-Feve_2022_Clinical-Cases-in-Tropic\17---A-34-Year-Old-Man-from-Thailand-With-Feve_2022_Clinical-Cases-in-Tropic_p2_img1.jpeg)
 

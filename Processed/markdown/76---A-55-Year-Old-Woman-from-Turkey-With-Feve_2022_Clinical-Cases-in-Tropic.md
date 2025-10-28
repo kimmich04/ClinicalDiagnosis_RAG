@@ -2,5 +2,5 @@
 
 ## Images
 
-![figure](../images/76---A-55-Year-Old-Woman-from-Turkey-With-Feve_2022_Clinical-Cases-in-Tropic/76---A-55-Year-Old-Woman-from-Turkey-With-Feve_2022_Clinical-Cases-in-Tropic_p2_img1.jpeg)
+![figure](..\images\76---A-55-Year-Old-Woman-from-Turkey-With-Feve_2022_Clinical-Cases-in-Tropic\76---A-55-Year-Old-Woman-from-Turkey-With-Feve_2022_Clinical-Cases-in-Tropic_p2_img1.jpeg)
 

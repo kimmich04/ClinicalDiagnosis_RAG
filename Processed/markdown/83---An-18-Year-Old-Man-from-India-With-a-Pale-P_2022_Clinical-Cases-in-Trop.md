@@ -2,5 +2,5 @@
 
 ## Images
 
-![figure](../images/83---An-18-Year-Old-Man-from-India-With-a-Pale-P_2022_Clinical-Cases-in-Trop/83---An-18-Year-Old-Man-from-India-With-a-Pale-P_2022_Clinical-Cases-in-Trop_p1_img1.jpeg)
+![figure](..\images\83---An-18-Year-Old-Man-from-India-With-a-Pale-P_2022_Clinical-Cases-in-Trop\83---An-18-Year-Old-Man-from-India-With-a-Pale-P_2022_Clinical-Cases-in-Trop_p1_img1.jpeg)
 

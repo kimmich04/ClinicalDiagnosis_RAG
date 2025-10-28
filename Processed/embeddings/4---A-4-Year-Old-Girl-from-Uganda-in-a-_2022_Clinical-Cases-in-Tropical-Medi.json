@@ -1,0 +1,30 @@
+{
+  "file": "4---A-4-Year-Old-Girl-from-Uganda-in-a-_2022_Clinical-Cases-in-Tropical-Medi.md",
+  "n_chunks": 3,
+  "text_embedding": "Processed\\embeddings\\4---A-4-Year-Old-Girl-from-Uganda-in-a-_2022_Clinical-Cases-in-Tropical-Medi_text.npy",
+  "image_embedding": "Processed\\embeddings\\4---A-4-Year-Old-Girl-from-Uganda-in-a-_2022_Clinical-Cases-in-Tropical-Medi_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ 4 --- a - 4 - year - old - girl - from - uganda - in - a -_ 2 0 2 2 _ clinical - cases - in - tropical - medi \\ 4 --- a - 4 - year - old - girl - from - uganda - in - a -_ 2 0 2 2 _ clinical - cases",
+      "start_token": 0,
+      "end_token": 77
+    },
+    {
+      "id": 1,
+      "text": "-_ 2 0 2 2 _ clinical - cases - in - tropical - medi _ p 2 _ img 1. jpeg )![ figure ](..\\ images \\ 4 --- a - 4 - year - old - girl - from - uganda - in - a -_ 2 0 2 2 _ clinical - cases - in - tropical - medi \\ 4 --- a -",
+      "start_token": 67,
+      "end_token": 144
+    },
+    {
+      "id": 2,
+      "text": "- tropical - medi \\ 4 --- a - 4 - year - old - girl - from - uganda - in - a -_ 2 0 2 2 _ clinical - cases - in - tropical - medi _ p 2 _ img 2. jpeg )",
+      "start_token": 134,
+      "end_token": 186
+    }
+  ],
+  "images": [
+    "Processed\\images\\4---A-4-Year-Old-Girl-from-Uganda-in-a-_2022_Clinical-Cases-in-Tropical-Medi\\4---A-4-Year-Old-Girl-from-Uganda-in-a-_2022_Clinical-Cases-in-Tropical-Medi_p2_img1.jpeg",
+    "Processed\\images\\4---A-4-Year-Old-Girl-from-Uganda-in-a-_2022_Clinical-Cases-in-Tropical-Medi\\4---A-4-Year-Old-Girl-from-Uganda-in-a-_2022_Clinical-Cases-in-Tropical-Medi_p2_img2.jpeg"
+  ]
+}

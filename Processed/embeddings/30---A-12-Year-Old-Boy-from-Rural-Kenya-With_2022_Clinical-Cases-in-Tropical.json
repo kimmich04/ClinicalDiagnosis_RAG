@@ -1,0 +1,30 @@
+{
+  "file": "30---A-12-Year-Old-Boy-from-Rural-Kenya-With_2022_Clinical-Cases-in-Tropical.md",
+  "n_chunks": 3,
+  "text_embedding": "Processed\\embeddings\\30---A-12-Year-Old-Boy-from-Rural-Kenya-With_2022_Clinical-Cases-in-Tropical_text.npy",
+  "image_embedding": "Processed\\embeddings\\30---A-12-Year-Old-Boy-from-Rural-Kenya-With_2022_Clinical-Cases-in-Tropical_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ 3 0 --- a - 1 2 - year - old - boy - from - rural - kenya - with _ 2 0 2 2 _ clinical - cases - in - tropical \\ 3 0 --- a - 1 2 - year - old - boy - from - rural - kenya - with _ 2 0 2 2 _ clinical - cases -",
+      "start_token": 0,
+      "end_token": 77
+    },
+    {
+      "id": 1,
+      "text": "_ 2 0 2 2 _ clinical - cases - in - tropical _ p 1 _ img 1. jpeg )![ figure ](..\\ images \\ 3 0 --- a - 1 2 - year - old - boy - from - rural - kenya - with _ 2 0 2 2 _ clinical - cases - in - tropical \\ 3 0 --- a - 1 2 - year -",
+      "start_token": 67,
+      "end_token": 144
+    },
+    {
+      "id": 2,
+      "text": "3 0 --- a - 1 2 - year - old - boy - from - rural - kenya - with _ 2 0 2 2 _ clinical - cases - in - tropical _ p 2 _ img 1. jpeg )",
+      "start_token": 134,
+      "end_token": 178
+    }
+  ],
+  "images": [
+    "Processed\\images\\30---A-12-Year-Old-Boy-from-Rural-Kenya-With_2022_Clinical-Cases-in-Tropical\\30---A-12-Year-Old-Boy-from-Rural-Kenya-With_2022_Clinical-Cases-in-Tropical_p1_img1.jpeg",
+    "Processed\\images\\30---A-12-Year-Old-Boy-from-Rural-Kenya-With_2022_Clinical-Cases-in-Tropical\\30---A-12-Year-Old-Boy-from-Rural-Kenya-With_2022_Clinical-Cases-in-Tropical_p2_img1.jpeg"
+  ]
+}

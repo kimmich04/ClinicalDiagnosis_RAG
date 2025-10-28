@@ -2,5 +2,5 @@
 
 ## Images
 
-![figure](../images/42---A-41-Year-Old-Male-Traveller-Returning-from-Au_2022_Clinical-Cases-in-T/42---A-41-Year-Old-Male-Traveller-Returning-from-Au_2022_Clinical-Cases-in-T_p1_img1.jpeg)
+![figure](..\images\42---A-41-Year-Old-Male-Traveller-Returning-from-Au_2022_Clinical-Cases-in-T\42---A-41-Year-Old-Male-Traveller-Returning-from-Au_2022_Clinical-Cases-in-T_p1_img1.jpeg)
 

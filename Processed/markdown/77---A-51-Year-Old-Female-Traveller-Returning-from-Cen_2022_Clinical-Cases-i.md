@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/77---A-51-Year-Old-Female-Traveller-Returning-from-Cen_2022_Clinical-Cases-i/77---A-51-Year-Old-Female-Traveller-Returning-from-Cen_2022_Clinical-Cases-i_p1_img1.jpeg)
+![figure](..\images\77---A-51-Year-Old-Female-Traveller-Returning-from-Cen_2022_Clinical-Cases-i\77---A-51-Year-Old-Female-Traveller-Returning-from-Cen_2022_Clinical-Cases-i_p1_img1.jpeg)
 
-![figure](../images/77---A-51-Year-Old-Female-Traveller-Returning-from-Cen_2022_Clinical-Cases-i/77---A-51-Year-Old-Female-Traveller-Returning-from-Cen_2022_Clinical-Cases-i_p2_img1.jpeg)
+![figure](..\images\77---A-51-Year-Old-Female-Traveller-Returning-from-Cen_2022_Clinical-Cases-i\77---A-51-Year-Old-Female-Traveller-Returning-from-Cen_2022_Clinical-Cases-i_p2_img1.jpeg)
 

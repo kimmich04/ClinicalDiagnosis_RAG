@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/23---A-31-Year-Old-HIV-Positive-Business-Traveller-W_2022_Clinical-Cases-in-/23---A-31-Year-Old-HIV-Positive-Business-Traveller-W_2022_Clinical-Cases-in-_p1_img1.jpeg)
+![figure](..\images\23---A-31-Year-Old-HIV-Positive-Business-Traveller-W_2022_Clinical-Cases-in-\23---A-31-Year-Old-HIV-Positive-Business-Traveller-W_2022_Clinical-Cases-in-_p1_img1.jpeg)
 
-![figure](../images/23---A-31-Year-Old-HIV-Positive-Business-Traveller-W_2022_Clinical-Cases-in-/23---A-31-Year-Old-HIV-Positive-Business-Traveller-W_2022_Clinical-Cases-in-_p3_img1.jpeg)
+![figure](..\images\23---A-31-Year-Old-HIV-Positive-Business-Traveller-W_2022_Clinical-Cases-in-\23---A-31-Year-Old-HIV-Positive-Business-Traveller-W_2022_Clinical-Cases-in-_p3_img1.jpeg)
 

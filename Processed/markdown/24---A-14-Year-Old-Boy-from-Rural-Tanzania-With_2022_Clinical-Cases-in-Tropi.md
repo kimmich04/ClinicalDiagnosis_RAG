@@ -2,5 +2,5 @@
 
 ## Images
 
-![figure](../images/24---A-14-Year-Old-Boy-from-Rural-Tanzania-With_2022_Clinical-Cases-in-Tropi/24---A-14-Year-Old-Boy-from-Rural-Tanzania-With_2022_Clinical-Cases-in-Tropi_p1_img1.jpeg)
+![figure](..\images\24---A-14-Year-Old-Boy-from-Rural-Tanzania-With_2022_Clinical-Cases-in-Tropi\24---A-14-Year-Old-Boy-from-Rural-Tanzania-With_2022_Clinical-Cases-in-Tropi_p1_img1.jpeg)
 

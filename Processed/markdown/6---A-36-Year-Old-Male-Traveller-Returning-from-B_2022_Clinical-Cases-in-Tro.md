@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/6---A-36-Year-Old-Male-Traveller-Returning-from-B_2022_Clinical-Cases-in-Tro/6---A-36-Year-Old-Male-Traveller-Returning-from-B_2022_Clinical-Cases-in-Tro_p1_img1.jpeg)
+![figure](..\images\6---A-36-Year-Old-Male-Traveller-Returning-from-B_2022_Clinical-Cases-in-Tro\6---A-36-Year-Old-Male-Traveller-Returning-from-B_2022_Clinical-Cases-in-Tro_p1_img1.jpeg)
 
-![figure](../images/6---A-36-Year-Old-Male-Traveller-Returning-from-B_2022_Clinical-Cases-in-Tro/6---A-36-Year-Old-Male-Traveller-Returning-from-B_2022_Clinical-Cases-in-Tro_p2_img1.jpeg)
+![figure](..\images\6---A-36-Year-Old-Male-Traveller-Returning-from-B_2022_Clinical-Cases-in-Tro\6---A-36-Year-Old-Male-Traveller-Returning-from-B_2022_Clinical-Cases-in-Tro_p2_img1.jpeg)
 

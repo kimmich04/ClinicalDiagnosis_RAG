@@ -1,0 +1,30 @@
+{
+  "file": "81---A-33-Year-Old-Refugee-from-Afghanistan-With-_2022_Clinical-Cases-in-Tro.md",
+  "n_chunks": 3,
+  "text_embedding": "Processed\\embeddings\\81---A-33-Year-Old-Refugee-from-Afghanistan-With-_2022_Clinical-Cases-in-Tro_text.npy",
+  "image_embedding": "Processed\\embeddings\\81---A-33-Year-Old-Refugee-from-Afghanistan-With-_2022_Clinical-Cases-in-Tro_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ 8 1 --- a - 3 3 - year - old - refugee - from - afghanistan - with -_ 2 0 2 2 _ clinical - cases - in - tro \\ 8 1 --- a - 3 3 - year - old - refugee - from - afghanistan - with -_ 2 0 2 2 _ clinical - cases - in -",
+      "start_token": 0,
+      "end_token": 77
+    },
+    {
+      "id": 1,
+      "text": "0 2 2 _ clinical - cases - in - tro _ p 2 _ img 1. jpeg )![ figure ](..\\ images \\ 8 1 --- a - 3 3 - year - old - refugee - from - afghanistan - with -_ 2 0 2 2 _ clinical - cases - in - tro \\ 8 1 --- a - 3 3 - year - old - refugee",
+      "start_token": 67,
+      "end_token": 144
+    },
+    {
+      "id": 2,
+      "text": "a - 3 3 - year - old - refugee - from - afghanistan - with -_ 2 0 2 2 _ clinical - cases - in - tro _ p 2 _ img 2. jpeg )",
+      "start_token": 134,
+      "end_token": 174
+    }
+  ],
+  "images": [
+    "Processed\\images\\81---A-33-Year-Old-Refugee-from-Afghanistan-With-_2022_Clinical-Cases-in-Tro\\81---A-33-Year-Old-Refugee-from-Afghanistan-With-_2022_Clinical-Cases-in-Tro_p2_img1.jpeg",
+    "Processed\\images\\81---A-33-Year-Old-Refugee-from-Afghanistan-With-_2022_Clinical-Cases-in-Tro\\81---A-33-Year-Old-Refugee-from-Afghanistan-With-_2022_Clinical-Cases-in-Tro_p2_img2.jpeg"
+  ]
+}

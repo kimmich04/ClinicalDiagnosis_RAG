@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/68---A-31-Year-Old-Woman-from-Malawi-With-a-Gene_2022_Clinical-Cases-in-Trop/68---A-31-Year-Old-Woman-from-Malawi-With-a-Gene_2022_Clinical-Cases-in-Trop_p1_img1.jpeg)
+![figure](..\images\68---A-31-Year-Old-Woman-from-Malawi-With-a-Gene_2022_Clinical-Cases-in-Trop\68---A-31-Year-Old-Woman-from-Malawi-With-a-Gene_2022_Clinical-Cases-in-Trop_p1_img1.jpeg)
 
-![figure](../images/68---A-31-Year-Old-Woman-from-Malawi-With-a-Gene_2022_Clinical-Cases-in-Trop/68---A-31-Year-Old-Woman-from-Malawi-With-a-Gene_2022_Clinical-Cases-in-Trop_p2_img1.jpeg)
+![figure](..\images\68---A-31-Year-Old-Woman-from-Malawi-With-a-Gene_2022_Clinical-Cases-in-Trop\68---A-31-Year-Old-Woman-from-Malawi-With-a-Gene_2022_Clinical-Cases-in-Trop_p2_img1.jpeg)
 

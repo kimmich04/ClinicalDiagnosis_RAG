@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/39---A-30-Year-Old-Male-Chinese-Trader-With-_2022_Clinical-Cases-in-Tropical/39---A-30-Year-Old-Male-Chinese-Trader-With-_2022_Clinical-Cases-in-Tropical_p2_img1.jpeg)
+![figure](..\images\39---A-30-Year-Old-Male-Chinese-Trader-With-_2022_Clinical-Cases-in-Tropical\39---A-30-Year-Old-Male-Chinese-Trader-With-_2022_Clinical-Cases-in-Tropical_p2_img1.jpeg)
 
-![figure](../images/39---A-30-Year-Old-Male-Chinese-Trader-With-_2022_Clinical-Cases-in-Tropical/39---A-30-Year-Old-Male-Chinese-Trader-With-_2022_Clinical-Cases-in-Tropical_p2_img2.jpeg)
+![figure](..\images\39---A-30-Year-Old-Male-Chinese-Trader-With-_2022_Clinical-Cases-in-Tropical\39---A-30-Year-Old-Male-Chinese-Trader-With-_2022_Clinical-Cases-in-Tropical_p2_img2.jpeg)
 

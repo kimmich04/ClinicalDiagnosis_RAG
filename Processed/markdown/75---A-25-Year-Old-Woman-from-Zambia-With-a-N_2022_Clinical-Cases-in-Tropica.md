@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/75---A-25-Year-Old-Woman-from-Zambia-With-a-N_2022_Clinical-Cases-in-Tropica/75---A-25-Year-Old-Woman-from-Zambia-With-a-N_2022_Clinical-Cases-in-Tropica_p2_img1.jpeg)
+![figure](..\images\75---A-25-Year-Old-Woman-from-Zambia-With-a-N_2022_Clinical-Cases-in-Tropica\75---A-25-Year-Old-Woman-from-Zambia-With-a-N_2022_Clinical-Cases-in-Tropica_p2_img1.jpeg)
 
-![figure](../images/75---A-25-Year-Old-Woman-from-Zambia-With-a-N_2022_Clinical-Cases-in-Tropica/75---A-25-Year-Old-Woman-from-Zambia-With-a-N_2022_Clinical-Cases-in-Tropica_p2_img2.jpeg)
+![figure](..\images\75---A-25-Year-Old-Woman-from-Zambia-With-a-N_2022_Clinical-Cases-in-Tropica\75---A-25-Year-Old-Woman-from-Zambia-With-a-N_2022_Clinical-Cases-in-Tropica_p2_img2.jpeg)
 

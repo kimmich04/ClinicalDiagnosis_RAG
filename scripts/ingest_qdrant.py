@@ -12,7 +12,7 @@ Usage:
   pip install qdrant-client
 
   # run this script
-  python scripts/ingest_qdrant.py --emb-dir Processed_embeddings/embeddings --collection documents
+  python scripts/ingest_qdrant.py --emb-dir Processed/embeddings --collection documents
 
 """
 from __future__ import annotations

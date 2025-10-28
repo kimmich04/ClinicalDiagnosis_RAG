@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/61---A-48-Year-Old-Woman-from-Thailand-With-Fever-_2022_Clinical-Cases-in-Tr/61---A-48-Year-Old-Woman-from-Thailand-With-Fever-_2022_Clinical-Cases-in-Tr_p1_img1.jpeg)
+![figure](..\images\61---A-48-Year-Old-Woman-from-Thailand-With-Fever-_2022_Clinical-Cases-in-Tr\61---A-48-Year-Old-Woman-from-Thailand-With-Fever-_2022_Clinical-Cases-in-Tr_p1_img1.jpeg)
 
-![figure](../images/61---A-48-Year-Old-Woman-from-Thailand-With-Fever-_2022_Clinical-Cases-in-Tr/61---A-48-Year-Old-Woman-from-Thailand-With-Fever-_2022_Clinical-Cases-in-Tr_p2_img1.jpeg)
+![figure](..\images\61---A-48-Year-Old-Woman-from-Thailand-With-Fever-_2022_Clinical-Cases-in-Tr\61---A-48-Year-Old-Woman-from-Thailand-With-Fever-_2022_Clinical-Cases-in-Tr_p2_img1.jpeg)
 

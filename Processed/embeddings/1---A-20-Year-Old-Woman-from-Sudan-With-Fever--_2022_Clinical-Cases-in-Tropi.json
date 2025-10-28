@@ -1,0 +1,30 @@
+{
+  "file": "1---A-20-Year-Old-Woman-from-Sudan-With-Fever--_2022_Clinical-Cases-in-Tropi.md",
+  "n_chunks": 3,
+  "text_embedding": "Processed\\embeddings\\1---A-20-Year-Old-Woman-from-Sudan-With-Fever--_2022_Clinical-Cases-in-Tropi_text.npy",
+  "image_embedding": "Processed\\embeddings\\1---A-20-Year-Old-Woman-from-Sudan-With-Fever--_2022_Clinical-Cases-in-Tropi_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ 1 --- a - 2 0 - year - old - woman - from - sudan - with - fever --_ 2 0 2 2 _ clinical - cases - in - tropi \\ 1 --- a - 2 0 - year - old - woman - from - sudan - with - fever --_ 2 0 2 2 _ clinical - cases",
+      "start_token": 0,
+      "end_token": 77
+    },
+    {
+      "id": 1,
+      "text": "--_ 2 0 2 2 _ clinical - cases - in - tropi _ p 2 _ img 1. jpeg )![ figure ](..\\ images \\ 1 --- a - 2 0 - year - old - woman - from - sudan - with - fever --_ 2 0 2 2 _ clinical - cases - in - tropi \\ 1 --- a - 2 0 -",
+      "start_token": 67,
+      "end_token": 144
+    },
+    {
+      "id": 2,
+      "text": "tropi \\ 1 --- a - 2 0 - year - old - woman - from - sudan - with - fever --_ 2 0 2 2 _ clinical - cases - in - tropi _ p 2 _ img 2. jpeg )",
+      "start_token": 134,
+      "end_token": 182
+    }
+  ],
+  "images": [
+    "Processed\\images\\1---A-20-Year-Old-Woman-from-Sudan-With-Fever--_2022_Clinical-Cases-in-Tropi\\1---A-20-Year-Old-Woman-from-Sudan-With-Fever--_2022_Clinical-Cases-in-Tropi_p2_img1.jpeg",
+    "Processed\\images\\1---A-20-Year-Old-Woman-from-Sudan-With-Fever--_2022_Clinical-Cases-in-Tropi\\1---A-20-Year-Old-Woman-from-Sudan-With-Fever--_2022_Clinical-Cases-in-Tropi_p2_img2.jpeg"
+  ]
+}

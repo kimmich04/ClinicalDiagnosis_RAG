@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/92---A-42-Year-Old-Traveller-Returning-from-Thaila_2022_Clinical-Cases-in-Tr/92---A-42-Year-Old-Traveller-Returning-from-Thaila_2022_Clinical-Cases-in-Tr_p2_img1.jpeg)
+![figure](..\images\92---A-42-Year-Old-Traveller-Returning-from-Thaila_2022_Clinical-Cases-in-Tr\92---A-42-Year-Old-Traveller-Returning-from-Thaila_2022_Clinical-Cases-in-Tr_p2_img1.jpeg)
 
-![figure](../images/92---A-42-Year-Old-Traveller-Returning-from-Thaila_2022_Clinical-Cases-in-Tr/92---A-42-Year-Old-Traveller-Returning-from-Thaila_2022_Clinical-Cases-in-Tr_p2_img2.jpeg)
+![figure](..\images\92---A-42-Year-Old-Traveller-Returning-from-Thaila_2022_Clinical-Cases-in-Tr\92---A-42-Year-Old-Traveller-Returning-from-Thaila_2022_Clinical-Cases-in-Tr_p2_img2.jpeg)
 

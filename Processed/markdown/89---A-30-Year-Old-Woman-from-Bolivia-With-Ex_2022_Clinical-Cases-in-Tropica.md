@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/89---A-30-Year-Old-Woman-from-Bolivia-With-Ex_2022_Clinical-Cases-in-Tropica/89---A-30-Year-Old-Woman-from-Bolivia-With-Ex_2022_Clinical-Cases-in-Tropica_p2_img1.jpeg)
+![figure](..\images\89---A-30-Year-Old-Woman-from-Bolivia-With-Ex_2022_Clinical-Cases-in-Tropica\89---A-30-Year-Old-Woman-from-Bolivia-With-Ex_2022_Clinical-Cases-in-Tropica_p2_img1.jpeg)
 
-![figure](../images/89---A-30-Year-Old-Woman-from-Bolivia-With-Ex_2022_Clinical-Cases-in-Tropica/89---A-30-Year-Old-Woman-from-Bolivia-With-Ex_2022_Clinical-Cases-in-Tropica_p2_img2.jpeg)
+![figure](..\images\89---A-30-Year-Old-Woman-from-Bolivia-With-Ex_2022_Clinical-Cases-in-Tropica\89---A-30-Year-Old-Woman-from-Bolivia-With-Ex_2022_Clinical-Cases-in-Tropica_p2_img2.jpeg)
 

@@ -2,5 +2,5 @@
 
 ## Images
 
-![figure](../images/14---A-22-Year-Old-Woman-from-Bangladesh-With-P_2022_Clinical-Cases-in-Tropi/14---A-22-Year-Old-Woman-from-Bangladesh-With-P_2022_Clinical-Cases-in-Tropi_p1_img1.jpeg)
+![figure](..\images\14---A-22-Year-Old-Woman-from-Bangladesh-With-P_2022_Clinical-Cases-in-Tropi\14---A-22-Year-Old-Woman-from-Bangladesh-With-P_2022_Clinical-Cases-in-Tropi_p1_img1.jpeg)
 

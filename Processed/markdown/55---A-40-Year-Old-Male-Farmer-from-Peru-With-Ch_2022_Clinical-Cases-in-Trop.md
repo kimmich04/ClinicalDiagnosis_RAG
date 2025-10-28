@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/55---A-40-Year-Old-Male-Farmer-from-Peru-With-Ch_2022_Clinical-Cases-in-Trop/55---A-40-Year-Old-Male-Farmer-from-Peru-With-Ch_2022_Clinical-Cases-in-Trop_p2_img1.jpeg)
+![figure](..\images\55---A-40-Year-Old-Male-Farmer-from-Peru-With-Ch_2022_Clinical-Cases-in-Trop\55---A-40-Year-Old-Male-Farmer-from-Peru-With-Ch_2022_Clinical-Cases-in-Trop_p2_img1.jpeg)
 
-![figure](../images/55---A-40-Year-Old-Male-Farmer-from-Peru-With-Ch_2022_Clinical-Cases-in-Trop/55---A-40-Year-Old-Male-Farmer-from-Peru-With-Ch_2022_Clinical-Cases-in-Trop_p2_img2.jpeg)
+![figure](..\images\55---A-40-Year-Old-Male-Farmer-from-Peru-With-Ch_2022_Clinical-Cases-in-Trop\55---A-40-Year-Old-Male-Farmer-from-Peru-With-Ch_2022_Clinical-Cases-in-Trop_p2_img2.jpeg)
 

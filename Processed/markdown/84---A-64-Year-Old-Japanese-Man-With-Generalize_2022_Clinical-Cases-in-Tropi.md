@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/84---A-64-Year-Old-Japanese-Man-With-Generalize_2022_Clinical-Cases-in-Tropi/84---A-64-Year-Old-Japanese-Man-With-Generalize_2022_Clinical-Cases-in-Tropi_p2_img1.jpeg)
+![figure](..\images\84---A-64-Year-Old-Japanese-Man-With-Generalize_2022_Clinical-Cases-in-Tropi\84---A-64-Year-Old-Japanese-Man-With-Generalize_2022_Clinical-Cases-in-Tropi_p2_img1.jpeg)
 
-![figure](../images/84---A-64-Year-Old-Japanese-Man-With-Generalize_2022_Clinical-Cases-in-Tropi/84---A-64-Year-Old-Japanese-Man-With-Generalize_2022_Clinical-Cases-in-Tropi_p2_img2.jpeg)
+![figure](..\images\84---A-64-Year-Old-Japanese-Man-With-Generalize_2022_Clinical-Cases-in-Tropi\84---A-64-Year-Old-Japanese-Man-With-Generalize_2022_Clinical-Cases-in-Tropi_p2_img2.jpeg)
 

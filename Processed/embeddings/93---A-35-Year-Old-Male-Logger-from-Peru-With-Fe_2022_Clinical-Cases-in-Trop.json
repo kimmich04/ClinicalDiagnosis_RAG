@@ -1,0 +1,37 @@
+{
+  "file": "93---A-35-Year-Old-Male-Logger-from-Peru-With-Fe_2022_Clinical-Cases-in-Trop.md",
+  "n_chunks": 4,
+  "text_embedding": "Processed\\embeddings\\93---A-35-Year-Old-Male-Logger-from-Peru-With-Fe_2022_Clinical-Cases-in-Trop_text.npy",
+  "image_embedding": "Processed\\embeddings\\93---A-35-Year-Old-Male-Logger-from-Peru-With-Fe_2022_Clinical-Cases-in-Trop_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ 9 3 --- a - 3 5 - year - old - male - logger - from - peru - with - fe _ 2 0 2 2 _ clinical - cases - in - trop \\ 9 3 --- a - 3 5 - year - old - male - logger - from - peru - with - fe _ 2 0 2 2 _",
+      "start_token": 0,
+      "end_token": 77
+    },
+    {
+      "id": 1,
+      "text": "- with - fe _ 2 0 2 2 _ clinical - cases - in - trop _ p 2 _ img 1. jpeg )![ figure ](..\\ images \\ 9 3 --- a - 3 5 - year - old - male - logger - from - peru - with - fe _ 2 0 2 2 _ clinical - cases - in - trop \\ 9 3 --- a",
+      "start_token": 67,
+      "end_token": 144
+    },
+    {
+      "id": 2,
+      "text": "cases - in - trop \\ 9 3 --- a - 3 5 - year - old - male - logger - from - peru - with - fe _ 2 0 2 2 _ clinical - cases - in - trop _ p 2 _ img 2. jpeg )![ figure ](..\\ images \\ 9 3 --- a - 3 5 - year - old - male - logger -",
+      "start_token": 134,
+      "end_token": 211
+    },
+    {
+      "id": 3,
+      "text": "5 - year - old - male - logger - from - peru - with - fe _ 2 0 2 2 _ clinical - cases - in - trop \\ 9 3 --- a - 3 5 - year - old - male - logger - from - peru - with - fe _ 2 0 2 2 _ clinical - cases - in - trop _ p 3 _ img 1. jpeg )",
+      "start_token": 201,
+      "end_token": 278
+    }
+  ],
+  "images": [
+    "Processed\\images\\93---A-35-Year-Old-Male-Logger-from-Peru-With-Fe_2022_Clinical-Cases-in-Trop\\93---A-35-Year-Old-Male-Logger-from-Peru-With-Fe_2022_Clinical-Cases-in-Trop_p2_img1.jpeg",
+    "Processed\\images\\93---A-35-Year-Old-Male-Logger-from-Peru-With-Fe_2022_Clinical-Cases-in-Trop\\93---A-35-Year-Old-Male-Logger-from-Peru-With-Fe_2022_Clinical-Cases-in-Trop_p2_img2.jpeg",
+    "Processed\\images\\93---A-35-Year-Old-Male-Logger-from-Peru-With-Fe_2022_Clinical-Cases-in-Trop\\93---A-35-Year-Old-Male-Logger-from-Peru-With-Fe_2022_Clinical-Cases-in-Trop_p3_img1.jpeg"
+  ]
+}

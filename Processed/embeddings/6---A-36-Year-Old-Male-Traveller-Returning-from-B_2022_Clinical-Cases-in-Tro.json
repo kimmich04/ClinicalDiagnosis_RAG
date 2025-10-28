@@ -1,0 +1,30 @@
+{
+  "file": "6---A-36-Year-Old-Male-Traveller-Returning-from-B_2022_Clinical-Cases-in-Tro.md",
+  "n_chunks": 3,
+  "text_embedding": "Processed\\embeddings\\6---A-36-Year-Old-Male-Traveller-Returning-from-B_2022_Clinical-Cases-in-Tro_text.npy",
+  "image_embedding": "Processed\\embeddings\\6---A-36-Year-Old-Male-Traveller-Returning-from-B_2022_Clinical-Cases-in-Tro_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ 6 --- a - 3 6 - year - old - male - traveller - returning - from - b _ 2 0 2 2 _ clinical - cases - in - tro \\ 6 --- a - 3 6 - year - old - male - traveller - returning - from - b _ 2 0 2 2 _ clinical - cases - in -",
+      "start_token": 0,
+      "end_token": 77
+    },
+    {
+      "id": 1,
+      "text": "0 2 2 _ clinical - cases - in - tro _ p 1 _ img 1. jpeg )![ figure ](..\\ images \\ 6 --- a - 3 6 - year - old - male - traveller - returning - from - b _ 2 0 2 2 _ clinical - cases - in - tro \\ 6 --- a - 3 6 - year - old - male -",
+      "start_token": 67,
+      "end_token": 144
+    },
+    {
+      "id": 2,
+      "text": "- 3 6 - year - old - male - traveller - returning - from - b _ 2 0 2 2 _ clinical - cases - in - tro _ p 2 _ img 1. jpeg )",
+      "start_token": 134,
+      "end_token": 174
+    }
+  ],
+  "images": [
+    "Processed\\images\\6---A-36-Year-Old-Male-Traveller-Returning-from-B_2022_Clinical-Cases-in-Tro\\6---A-36-Year-Old-Male-Traveller-Returning-from-B_2022_Clinical-Cases-in-Tro_p1_img1.jpeg",
+    "Processed\\images\\6---A-36-Year-Old-Male-Traveller-Returning-from-B_2022_Clinical-Cases-in-Tro\\6---A-36-Year-Old-Male-Traveller-Returning-from-B_2022_Clinical-Cases-in-Tro_p2_img1.jpeg"
+  ]
+}

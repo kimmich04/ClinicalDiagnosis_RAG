@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/19---A-40-Year-Old-Man-from-Togo-With-Subcutaneou_2022_Clinical-Cases-in-Tro/19---A-40-Year-Old-Man-from-Togo-With-Subcutaneou_2022_Clinical-Cases-in-Tro_p1_img1.jpeg)
+![figure](..\images\19---A-40-Year-Old-Man-from-Togo-With-Subcutaneou_2022_Clinical-Cases-in-Tro\19---A-40-Year-Old-Man-from-Togo-With-Subcutaneou_2022_Clinical-Cases-in-Tro_p1_img1.jpeg)
 
-![figure](../images/19---A-40-Year-Old-Man-from-Togo-With-Subcutaneou_2022_Clinical-Cases-in-Tro/19---A-40-Year-Old-Man-from-Togo-With-Subcutaneou_2022_Clinical-Cases-in-Tro_p1_img2.jpeg)
+![figure](..\images\19---A-40-Year-Old-Man-from-Togo-With-Subcutaneou_2022_Clinical-Cases-in-Tro\19---A-40-Year-Old-Man-from-Togo-With-Subcutaneou_2022_Clinical-Cases-in-Tro_p1_img2.jpeg)
 

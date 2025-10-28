@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/32---A-44-Year-Old-Male-Farmer-from-Laos-With-Di_2022_Clinical-Cases-in-Trop/32---A-44-Year-Old-Male-Farmer-from-Laos-With-Di_2022_Clinical-Cases-in-Trop_p1_img1.jpeg)
+![figure](..\images\32---A-44-Year-Old-Male-Farmer-from-Laos-With-Di_2022_Clinical-Cases-in-Trop\32---A-44-Year-Old-Male-Farmer-from-Laos-With-Di_2022_Clinical-Cases-in-Trop_p1_img1.jpeg)
 
-![figure](../images/32---A-44-Year-Old-Male-Farmer-from-Laos-With-Di_2022_Clinical-Cases-in-Trop/32---A-44-Year-Old-Male-Farmer-from-Laos-With-Di_2022_Clinical-Cases-in-Trop_p2_img1.jpeg)
+![figure](..\images\32---A-44-Year-Old-Male-Farmer-from-Laos-With-Di_2022_Clinical-Cases-in-Trop\32---A-44-Year-Old-Male-Farmer-from-Laos-With-Di_2022_Clinical-Cases-in-Trop_p2_img1.jpeg)
 

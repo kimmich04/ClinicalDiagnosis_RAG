@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/10---A-55-Year-Old-Indigenous-Woman-from-Australia-W_2022_Clinical-Cases-in-/10---A-55-Year-Old-Indigenous-Woman-from-Australia-W_2022_Clinical-Cases-in-_p1_img1.jpeg)
+![figure](..\images\10---A-55-Year-Old-Indigenous-Woman-from-Australia-W_2022_Clinical-Cases-in-\10---A-55-Year-Old-Indigenous-Woman-from-Australia-W_2022_Clinical-Cases-in-_p1_img1.jpeg)
 
-![figure](../images/10---A-55-Year-Old-Indigenous-Woman-from-Australia-W_2022_Clinical-Cases-in-/10---A-55-Year-Old-Indigenous-Woman-from-Australia-W_2022_Clinical-Cases-in-_p2_img1.jpeg)
+![figure](..\images\10---A-55-Year-Old-Indigenous-Woman-from-Australia-W_2022_Clinical-Cases-in-\10---A-55-Year-Old-Indigenous-Woman-from-Australia-W_2022_Clinical-Cases-in-_p2_img1.jpeg)
 

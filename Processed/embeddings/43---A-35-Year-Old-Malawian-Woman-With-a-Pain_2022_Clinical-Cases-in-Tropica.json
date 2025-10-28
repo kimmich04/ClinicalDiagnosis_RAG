@@ -1,0 +1,30 @@
+{
+  "file": "43---A-35-Year-Old-Malawian-Woman-With-a-Pain_2022_Clinical-Cases-in-Tropica.md",
+  "n_chunks": 3,
+  "text_embedding": "Processed\\embeddings\\43---A-35-Year-Old-Malawian-Woman-With-a-Pain_2022_Clinical-Cases-in-Tropica_text.npy",
+  "image_embedding": "Processed\\embeddings\\43---A-35-Year-Old-Malawian-Woman-With-a-Pain_2022_Clinical-Cases-in-Tropica_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ 4 3 --- a - 3 5 - year - old - malawian - woman - with - a - pain _ 2 0 2 2 _ clinical - cases - in - tropica \\ 4 3 --- a - 3 5 - year - old - malawian - woman - with - a - pain _ 2 0 2 2",
+      "start_token": 0,
+      "end_token": 77
+    },
+    {
+      "id": 1,
+      "text": "with - a - pain _ 2 0 2 2 _ clinical - cases - in - tropica _ p 1 _ img 1. jpeg )![ figure ](..\\ images \\ 4 3 --- a - 3 5 - year - old - malawian - woman - with - a - pain _ 2 0 2 2 _ clinical - cases - in - tropica \\ 4",
+      "start_token": 67,
+      "end_token": 144
+    },
+    {
+      "id": 2,
+      "text": "clinical - cases - in - tropica \\ 4 3 --- a - 3 5 - year - old - malawian - woman - with - a - pain _ 2 0 2 2 _ clinical - cases - in - tropica _ p 2 _ img 1. jpeg )",
+      "start_token": 134,
+      "end_token": 190
+    }
+  ],
+  "images": [
+    "Processed\\images\\43---A-35-Year-Old-Malawian-Woman-With-a-Pain_2022_Clinical-Cases-in-Tropica\\43---A-35-Year-Old-Malawian-Woman-With-a-Pain_2022_Clinical-Cases-in-Tropica_p1_img1.jpeg",
+    "Processed\\images\\43---A-35-Year-Old-Malawian-Woman-With-a-Pain_2022_Clinical-Cases-in-Tropica\\43---A-35-Year-Old-Malawian-Woman-With-a-Pain_2022_Clinical-Cases-in-Tropica_p2_img1.jpeg"
+  ]
+}

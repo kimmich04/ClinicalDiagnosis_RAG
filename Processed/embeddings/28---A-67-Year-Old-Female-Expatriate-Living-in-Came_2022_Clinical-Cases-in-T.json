@@ -1,0 +1,23 @@
+{
+  "file": "28---A-67-Year-Old-Female-Expatriate-Living-in-Came_2022_Clinical-Cases-in-T.md",
+  "n_chunks": 2,
+  "text_embedding": "Processed\\embeddings\\28---A-67-Year-Old-Female-Expatriate-Living-in-Came_2022_Clinical-Cases-in-T_text.npy",
+  "image_embedding": "Processed\\embeddings\\28---A-67-Year-Old-Female-Expatriate-Living-in-Came_2022_Clinical-Cases-in-T_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ 2 8 --- a - 6 7 - year - old - female - expatriate - living - in - came _ 2 0 2 2 _ clinical - cases - in - t \\ 2 8 --- a - 6 7 - year - old - female - expatriate - living - in - came _ 2 0 2 2 _",
+      "start_token": 0,
+      "end_token": 77
+    },
+    {
+      "id": 1,
+      "text": "- in - came _ 2 0 2 2 _ clinical - cases - in - t _ p 2 _ img 1. jpeg )",
+      "start_token": 67,
+      "end_token": 94
+    }
+  ],
+  "images": [
+    "Processed\\images\\28---A-67-Year-Old-Female-Expatriate-Living-in-Came_2022_Clinical-Cases-in-T\\28---A-67-Year-Old-Female-Expatriate-Living-in-Came_2022_Clinical-Cases-in-T_p2_img1.jpeg"
+  ]
+}

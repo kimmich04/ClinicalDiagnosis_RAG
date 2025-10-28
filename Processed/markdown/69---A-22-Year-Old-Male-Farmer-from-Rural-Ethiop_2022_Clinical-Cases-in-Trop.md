@@ -2,7 +2,7 @@
 
 ## Images
 
-![figure](../images/69---A-22-Year-Old-Male-Farmer-from-Rural-Ethiop_2022_Clinical-Cases-in-Trop/69---A-22-Year-Old-Male-Farmer-from-Rural-Ethiop_2022_Clinical-Cases-in-Trop_p1_img1.jpeg)
+![figure](..\images\69---A-22-Year-Old-Male-Farmer-from-Rural-Ethiop_2022_Clinical-Cases-in-Trop\69---A-22-Year-Old-Male-Farmer-from-Rural-Ethiop_2022_Clinical-Cases-in-Trop_p1_img1.jpeg)
 
-![figure](../images/69---A-22-Year-Old-Male-Farmer-from-Rural-Ethiop_2022_Clinical-Cases-in-Trop/69---A-22-Year-Old-Male-Farmer-from-Rural-Ethiop_2022_Clinical-Cases-in-Trop_p2_img1.jpeg)
+![figure](..\images\69---A-22-Year-Old-Male-Farmer-from-Rural-Ethiop_2022_Clinical-Cases-in-Trop\69---A-22-Year-Old-Male-Farmer-from-Rural-Ethiop_2022_Clinical-Cases-in-Trop_p2_img1.jpeg)
 

@@ -1,0 +1,30 @@
+{
+  "file": "33---A-53-Year-Old-Man-from-Malawi-With-a-C_2022_Clinical-Cases-in-Tropical-.md",
+  "n_chunks": 3,
+  "text_embedding": "Processed\\embeddings\\33---A-53-Year-Old-Man-from-Malawi-With-a-C_2022_Clinical-Cases-in-Tropical-_text.npy",
+  "image_embedding": "Processed\\embeddings\\33---A-53-Year-Old-Man-from-Malawi-With-a-C_2022_Clinical-Cases-in-Tropical-_images.npy",
+  "chunks": [
+    {
+      "id": 0,
+      "text": "## images![ figure ](..\\ images \\ 3 3 --- a - 5 3 - year - old - man - from - malawi - with - a - c _ 2 0 2 2 _ clinical - cases - in - tropical -\\ 3 3 --- a - 5 3 - year - old - man - from - malawi - with - a - c _ 2 0 2 2",
+      "start_token": 0,
+      "end_token": 77
+    },
+    {
+      "id": 1,
+      "text": "with - a - c _ 2 0 2 2 _ clinical - cases - in - tropical -_ p 1 _ img 1. jpeg )![ figure ](..\\ images \\ 3 3 --- a - 5 3 - year - old - man - from - malawi - with - a - c _ 2 0 2 2 _ clinical - cases - in - tropical -\\ 3",
+      "start_token": 67,
+      "end_token": 144
+    },
+    {
+      "id": 2,
+      "text": "clinical - cases - in - tropical -\\ 3 3 --- a - 5 3 - year - old - man - from - malawi - with - a - c _ 2 0 2 2 _ clinical - cases - in - tropical -_ p 3 _ img 1. jpeg )",
+      "start_token": 134,
+      "end_token": 190
+    }
+  ],
+  "images": [
+    "Processed\\images\\33---A-53-Year-Old-Man-from-Malawi-With-a-C_2022_Clinical-Cases-in-Tropical-\\33---A-53-Year-Old-Man-from-Malawi-With-a-C_2022_Clinical-Cases-in-Tropical-_p1_img1.jpeg",
+    "Processed\\images\\33---A-53-Year-Old-Man-from-Malawi-With-a-C_2022_Clinical-Cases-in-Tropical-\\33---A-53-Year-Old-Man-from-Malawi-With-a-C_2022_Clinical-Cases-in-Tropical-_p3_img1.jpeg"
+  ]
+}

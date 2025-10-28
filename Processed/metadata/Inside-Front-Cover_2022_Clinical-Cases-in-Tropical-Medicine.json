@@ -1,10 +1,10 @@
 {
   "filename": "Inside-Front-Cover_2022_Clinical-Cases-in-Tropical-Medicine.pdf",
-  "markdown_path": "./Processed/markdown/Inside-Front-Cover_2022_Clinical-Cases-in-Tropical-Medicine.md",
+  "markdown_path": "./Processed\\markdown\\Inside-Front-Cover_2022_Clinical-Cases-in-Tropical-Medicine.md",
   "images": [
     {
       "page": 1,
-      "path": "./Processed/images/Inside-Front-Cover_2022_Clinical-Cases-in-Tropical-Medicine/Inside-Front-Cover_2022_Clinical-Cases-in-Tropical-Medicine_p1_img1.jpeg"
+      "path": "./Processed\\images\\Inside-Front-Cover_2022_Clinical-Cases-in-Tropical-Medicine\\Inside-Front-Cover_2022_Clinical-Cases-in-Tropical-Medicine_p1_img1.jpeg"
     }
   ]
 }
