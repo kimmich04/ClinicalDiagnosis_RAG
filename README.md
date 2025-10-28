@@ -108,3 +108,18 @@ Cosine similarity ranges from:
 1.0  → identical vectors (perfect match)
 0.0  → orthogonal (no relation)
 -1.0 → opposite meaning (rare in embeddings)
+
+6) Apply Gemma Model
+   - Create an account on Hugging Face and grant access to use the model: https://huggingface.co/google/gemma-3-4b-it
+   - Profile -> Access Tokens -> Create new token -> Choose token type as "Read" -> Name the token and create
+   - Using this command to eneter the token in VSC:
+     ```bash
+     huggingface-cli login
+     ```
+   - Enter the token
+   - Run the implemented script
+     ```bash
+     python scripts/rag_query_gemma.py
+     ```
+   - It may take a little time (30 - 60 minutes) to complete loading the model for the first time.
+   - Enter the symptoms of the victim to generate diagnosis.
