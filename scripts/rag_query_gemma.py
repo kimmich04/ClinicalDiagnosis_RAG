@@ -15,7 +15,7 @@ QDRANT_URL = "http://localhost:6333"
 COLLECTION_NAME = "documents"
 TOP_K = 5  # number of relevant chunks to retrieve
 EMBED_MODEL = "openai/clip-vit-base-patch32"  # for embeddings
-GEMMA_MODEL = "google/gemma-3-4b-it"  
+GEMMA_MODEL = "google/medgemma-4b-it"  
 # ----------------
 
 # ---- EMBEDDING MODEL ----
