@@ -3,6 +3,7 @@
 rag_query_gemma.py
 
 Retrieve relevant embeddings from Qdrant and use Gemma (or any LLM) to generate an answer.
+python scripts/rag_query_gemma.py
 """
 
 from qdrant_client import QdrantClient

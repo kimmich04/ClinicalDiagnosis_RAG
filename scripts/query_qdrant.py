@@ -5,7 +5,7 @@ query_qdrant.py
 Query the Qdrant collection using a sample vector from the embeddings folder.
 
 Usage:
-  python scripts/query_qdrant.py --emb-dir Processed/embeddings --collection documents --k 5
+  python scripts/query_qdrant.py --emb-dir Processed_embeddings/embeddings --collection documents --k 5
 """
 from __future__ import annotations
 import argparse
@@ -17,7 +17,7 @@ import re
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--emb-dir', default='Processed/embeddings')
+    parser.add_argument('--emb-dir', default='Processed_embeddings/embeddings')
     parser.add_argument('--collection', default='documents')
     parser.add_argument('--k', type=int, default=5)
     parser.add_argument('--sample', type=int, default=0, help='Index of vector inside sample file to query')
@@ -27,8 +27,12 @@ def main():
     # connect to local Qdrant server
     client = QdrantClient(url='http://localhost:6333')
 
-    # pick a sample file
-    sample = next(emb_dir.glob('*_text.npy'), None)
+    # pick a sample file: prefer embeddings/text/ subfolder, otherwise search recursively
+    text_dir = emb_dir / 'text'
+    if text_dir.exists():
+        sample = next(text_dir.glob('*_text.npy'), None)
+    else:
+        sample = next(emb_dir.rglob('*_text.npy'), None)
     if sample is None:
         raise SystemExit('No text embedding files found in ' + str(emb_dir))
 

@@ -5,8 +5,9 @@ embedding_clip.py
 Chunk markdowns under <input_root>/markdown and compute CLIP text & image embeddings.
 Saves embeddings to <output_root>/embeddings.
 
+python scripts/embedding_clip.py --input-root Processed --output-root Processed_embeddings --model openai/clip-vit-base-patch32 --device cpu
+
 Usage:
-  python embedding_clip.py --input-root Processed --output-root Processed --model openai/clip-vit-base-patch32 --device cpu
 """
 from __future__ import annotations
 import argparse
@@ -31,6 +32,7 @@ def tokenize_chunks(tokenizer, text: str, max_tokens:int, overlap:int):
         if i + max_tokens >= len(encoded):
             break
         i += step
+    chunks = merge_short_chunks(chunks)
     return chunks
 
 def chunk_text_charwise(text: str, max_chars:int, overlap:int):
@@ -51,6 +53,21 @@ def chunk_text_charwise(text: str, max_chars:int, overlap:int):
         start += step
     return chunks
 
+def merge_short_chunks(chunks, min_len=50):
+    merged = []
+    buffer = ""
+    for c in chunks:
+        if len(c["text"]) < min_len:
+            buffer += " " + c["text"]
+        else:
+            if buffer:
+                merged.append({"id": len(merged), "text": buffer.strip()})
+                buffer = ""
+            merged.append(c)
+    if buffer:
+        merged.append({"id": len(merged), "text": buffer.strip()})
+    return merged
+
 
 def clean_text(text: str) -> str:
     """Lightweight cleaning for OCR/extraction artifacts:
@@ -62,25 +79,90 @@ def clean_text(text: str) -> str:
     if not text:
         return text
 
-    # remove page headers (lines that start with 'page' or '# page')
-    text = re.sub(r'(?mi)^[#\s]*page\b.*$', '', text)
+    # Normalize unicode whitespace (non-breaking, zero-width) to regular spaces
+    text = re.sub(r'[\u00A0\u200B\u202F]+', ' ', text)
 
-    # collapse spaces between digits: '1 4' -> '14'
-    text = re.sub(r'(?<=\d)\s+(?=\d)', '', text)
+    # Remove page header lines like '# Page 12' but avoid removing long lines
+    # that accidentally begin with the word 'Page' followed by the article title
+    # (some files have long single-line paragraphs). Filter line-by-line
+    # and only drop short header lines.
+    lines = text.splitlines()
+    kept_lines = []
+    for ln in lines:
+        if re.match(r'(?i)^[#\s]*page\b', ln):
+            # drop only if the line looks like a short page header
+            if len(ln.strip()) < 120:
+                continue
+        kept_lines.append(ln)
+    text = "\n".join(kept_lines)
 
-    # collapse spaces between single alnum characters: '4 8 a 3 1' -> '48a31'
-    # match a space where both neighbors are single alnum characters (word-boundary)
-    text = re.sub(r'(?<=\b[0-9A-Za-z])\s+(?=[0-9A-Za-z]\b)', '', text)
+    # Remove obvious image/file markers like '_2022_' or 'img 1'
+    text = re.sub(r'[_\-]*\s*\d{4}\s*[_\-]*', ' ', text)
+    text = re.sub(r'img\s*\d+', '', text, flags=re.IGNORECASE)
 
-    # normalize hyphens used as connectors: ' - ' or ' -' -> '-'
+    # Remove underscores and multiple hyphens
+    text = re.sub(r'[_\-]{2,}', '-', text)
+
+    # Collapse spaced-out letters/numbers: '2 0 2 2' -> '2022', 'c a s e' -> 'case'
+    text = re.sub(r'(?<=\b\w)\s+(?=\w\b)', '', text)
+
+    # Remove isolated underscores and stray punctuation
+    text = re.sub(r'[_/\\]+', ' ', text)
+
+    # Normalize spaces around hyphens or commas
     text = re.sub(r'\s*-\s*', '-', text)
+    text = re.sub(r'\s*,\s*', ', ', text)
 
-    # collapse multiple spaces/tabs
+    # Collapse multiple spaces or tabs
     text = re.sub(r'[ \t]+', ' ', text)
 
-    # collapse multiple blank lines
+    # Collapse multiple blank lines
     text = re.sub(r'\n\s*\n+', '\n\n', text)
 
+    # Remove leftover punctuation artifacts
+    text = re.sub(r'[-–]{2,}', '-', text)
+    text = re.sub(r'[()]', '', text)
+    
+    # Join split words from OCR (e.g. "infec- tion" → "infection")
+    text = re.sub(r'(\w+)-\s+(\w+)', r'\1\2', text)
+    
+    # Normalize spacing around punctuation
+    text = re.sub(r'\s+([.,;:!?])', r'\1', text)
+
+    # --- Additional safe fixes for numeric and OCR artifacts ---
+    # Join digit groups that were split by spaces (e.g. '1 0 3' -> '103')
+    # Join any whitespace between digits (covers NBSP/zero-width added above)
+    text = re.sub(r'(?<=\d)\s+(?=\d)', '', text)
+    # Ensure a space before common medical units when they were glued to numbers
+    text = re.sub(r'(?i)(\d+)(?=(mmhg|bpm|kg|cm|%))', r"\1 ", text)
+    # Normalize common unit casing
+    text = re.sub(r'(?i)\bmmhg\b', 'mmHg', text)
+    # --- Blood-pressure reconstruction heuristic ---
+    # Convert four-digit numbers followed by mmHg (e.g. '9060 mmHg') into '90/60 mmHg'
+    # only when the split into two 2-digit numbers yields plausible BP values.
+    def _format_bp(match):
+        num = match.group(1)
+        unit = match.group(2)
+        # split into two 2-digit parts
+        a = int(num[:2])
+        b = int(num[2:])
+        # sanity ranges: systolic 30-250, diastolic 20-200
+        if 30 <= a <= 250 and 20 <= b <= 200:
+            return f"{a}/{b} {unit}"
+        return match.group(0)
+
+    text = re.sub(r'\b(\d{4})\s*(mmHg)\b', _format_bp, text)
+    # Fix decimals where spaces surround the dot: '39 . 6' -> '39.6'
+    text = re.sub(r'(?<=\d)\s*\.\s*(?=\d)', '.', text)
+    # Remove spaces between digits and percent sign: '1 5 %' -> '15%'
+    text = re.sub(r'(?<=\d)\s+%(?=\s|$)', '%', text)
+    # Collapse spaced-out single letters/numbers left from OCR (e.g. 'c a s e' -> 'case')
+    # But be conservative: only collapse when it's sequences of single letters separated by spaces
+    text = re.sub(r'(?:(?<=\s)|^)(?:[A-Za-z0-9]\s+){2,}[A-Za-z0-9](?=(?:\s|$))',
+                  lambda m: m.group(0).replace(' ', ''), text)
+
+    # Remove stray multi-space clusters again
+    text = re.sub(r'[ \t]{2,}', ' ', text)
     return text.strip()
 
 def main():
@@ -98,7 +180,10 @@ def main():
     markdown_dir = input_root / 'markdown'
     images_root = input_root / 'images'
     out_emb = Path(args.output_root) / 'embeddings'
-    out_emb.mkdir(parents=True, exist_ok=True)
+    # out_emb.mkdir(parents=True, exist_ok=True)
+    out_text = out_emb / 'text'; out_img = out_emb / 'image'
+    out_text.mkdir(parents=True, exist_ok=True)
+    out_img.mkdir(parents=True, exist_ok=True)
 
     if not markdown_dir.exists():
         print('Markdown folder not found:', markdown_dir)
@@ -119,6 +204,21 @@ def main():
     for md in sorted(markdown_dir.glob('*.md')):
         stem = md.stem
         text = md.read_text(encoding='utf-8')
+
+        # --- Remove image blocks / references BEFORE cleaning ---
+        # Do this prior to clean_text so the cleaning rules don't accidentally
+        # collapse or remove the main prose and leave only image markers.
+        # Split at a heading like '## Images' (case-insensitive) if present and keep the part before it.
+        parts = re.split(r"\n#{1,6}\s*images\b", text, flags=re.IGNORECASE)
+        if parts:
+            text = parts[0]
+
+        # Remove inline markdown image references: ![alt](path)
+        text = re.sub(r'!\[[^\]]*\]\([^\)]*\)', ' ', text)
+        # Remove stray image path fragments like '../images/...' or filenames ending in .jpeg/.jpg/.png
+        text = re.sub(r'\.{2}/images/\S+', ' ', text)
+        text = re.sub(r'\S+\.(?:jpe?g|png|webp)\b', ' ', text)
+
         # lightweight cleaning to fix OCR/extraction spacing artifacts
         text = clean_text(text)
 
@@ -129,7 +229,8 @@ def main():
             chunks = chunk_text_charwise(text, max_chars=args.max_chars, overlap=int(args.max_chars*0.1))
 
         texts = [c['text'] for c in chunks]
-        text_emb_path = out_emb / (stem + '_text.npy')
+        # text embeddings saved under <output-root>/embeddings/text/
+        text_emb_path = out_text / (stem + '_text.npy')
 
         if texts:
             # process in batches to avoid OOM
@@ -158,7 +259,8 @@ def main():
 
         # images
         img_dir = images_root / stem
-        image_emb_path = out_emb / (stem + '_images.npy')
+        # image embeddings saved under <output-root>/embeddings/image/
+        image_emb_path = out_img / (stem + '_images.npy')
         image_list = []
         if img_dir.exists():
             image_paths = sorted([p for p in img_dir.iterdir() if p.suffix.lower() in ('.png','.jpg','.jpeg','.webp')])
@@ -196,18 +298,34 @@ def main():
             np.save(image_emb_path, np.zeros((0, out_dim), dtype=np.float32))
 
         # Write index for this file
+        # index = {
+        #     'file': md.name,
+        #     'n_chunks': len(chunks),
+        #     'text_embedding': str(text_emb_path),
+        #     'image_embedding': str(image_emb_path),
+        #     'chunks': chunks,
+        #     'images': image_list,
+        # }
         index = {
             'file': md.name,
             'n_chunks': len(chunks),
             'text_embedding': str(text_emb_path),
             'image_embedding': str(image_emb_path),
-            'chunks': chunks,
-            'images': image_list,
+            'chunks': [
+                {'id': c['id'], 'text': c['text'], 'type': 'text'} for c in chunks
+            ],
+            'images': [{'path': p, 'type': 'image'} for p in image_list],
         }
         (out_emb / (stem + '.json')).write_text(json.dumps(index, ensure_ascii=False, indent=2), encoding='utf-8')
         summary.append(index)
-
-    (out_emb / 'summary.json').write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding='utf-8')
+    metadata = {
+        'model': args.model,
+        'device': args.device,
+        'num_files': len(summary),
+        'embedding_dim_text': all_emb.shape[1] if len(summary) and 'text_embedding' in summary[-1] else 0,
+        'embedding_dim_image': all_i_emb.shape[1] if len(summary) and 'image_embedding' in summary[-1] else 0
+    }
+    (out_emb / 'summary.json').write_text(json.dumps(metadata, indent=2))
     print('Saved embeddings to', out_emb)
 
 if __name__ == '__main__':
