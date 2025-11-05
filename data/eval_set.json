@@ -1,0 +1,125 @@
+[
+  {
+    "id": "33-1",
+    "source": "Processed/markdown/33---A-53-Year-Old-Man-from-Malawi-With-a-C_2022_Clinical-Cases-in-Tropical-.md",
+    "question": "What is the suspected diagnosis for an HIV-positive patient with chronic cough, weight loss and negative sputum microscopy?",
+    "answers": [
+      "smear-negative pulmonary TB",
+      "pulmonary tuberculosis",
+      "tuberculosis"
+    ],
+    "gold_passages": [
+      "In all HIV-positive patients with cough and weight loss who do not respond to antibiotic therapy, tuberculosis is top of the list of differential diagnoses. In this case the most likely diagnosis is smear-negative pulmonary TB."
+    ]
+  },
+  {
+    "id": "33-2",
+    "source": "Processed/markdown/33---A-53-Year-Old-Man-from-Malawi-With-a-C_2022_Clinical-Cases-in-Tropical-.md",
+    "question": "Which rapid diagnostic test is recommended and more sensitive than microscopy for detecting pulmonary TB in this setting?",
+    "answers": [
+      "Xpert MTB/RIF",
+      "real-time PCR-based tests",
+      "XPert MTB/RIF"
+    ],
+    "gold_passages": [
+      "Real-time PCR-based tests such as XPert MTB/RIF are easy to use, more sensitive than microscopy and also help detect rifampicin resistance."
+    ]
+  },
+  {
+    "id": "3-1",
+    "source": "Processed/markdown/3---A-26-Year-Old-Woman-from-Malawi-with-Headache-_2022_Clinical-Cases-in-Tr.md",
+    "question": "For a seriously ill patient with suspected CNS infection, which three major causes should empirical treatment cover?",
+    "answers": [
+      "bacterial, cryptococcal and tuberculous meningitis",
+      "bacterial meningitis, cryptococcal meningitis, tuberculous meningitis"
+    ],
+    "gold_passages": [
+      "Pragmatic treatment should cover bacterial, cryptococcal and tuberculous meningitis."
+    ]
+  },
+  {
+    "id": "3-2",
+    "source": "Processed/markdown/3---A-26-Year-Old-Woman-from-Malawi-with-Headache-_2022_Clinical-Cases-in-Tr.md",
+    "question": "Which diagnostic test is crucial because cryptococcal meningitis is associated with immunosuppression?",
+    "answers": [
+      "HIV serology",
+      "HIV test"
+    ],
+    "gold_passages": [
+      "An HIV-serology study is crucial because cryptococcal meningitis is associated with immunosuppression."
+    ]
+  },
+  {
+    "id": "17-1",
+    "source": "Processed/markdown/17---A-34-Year-Old-Man-from-Thailand-With-Feve_2022_Clinical-Cases-in-Tropic.md",
+    "question": "What is the single most important test to be done in a patient with fever, weight loss, lymphadenopathy and papular rash?",
+    "answers": [
+      "HIV serology",
+      "HIV test"
+    ],
+    "gold_passages": [
+      "The most important test to be done is an HIV serology."
+    ]
+  },
+  {
+    "id": "17-2",
+    "source": "Processed/markdown/17---A-34-Year-Old-Man-from-Thailand-With-Feve_2022_Clinical-Cases-in-Tropic.md",
+    "question": "Given a severely immunosuppressed patient with umbilicated papular lesions and yeast-like structures on histology, what is the most likely diagnosis?",
+    "answers": [
+      "talaromycosis",
+      "Talaromyces marneffei infection",
+      "penicilliosis"
+    ],
+    "gold_passages": [
+      "The blood culture and cultures from the skin biopsy and lymph node all grew Talaromyces (Penicillium) marneffei. The diagnosis of talaromycosis was made."
+    ]
+  },
+  {
+    "id": "27-1",
+    "source": "Processed/markdown/27---A-16-Year-Old-Boy-from-Sri-Lanka-With-Fever_2022_Clinical-Cases-in-Trop.md",
+    "question": "Which diagnosis is most likely for an acute febrile illness with jaundice, renal failure and subconjunctival haemorrhage after freshwater exposure?",
+    "answers": [
+      "leptospirosis",
+      "Weil's disease"
+    ],
+    "gold_passages": [
+      "An acute febrile illness accompanied by jaundice, renal failure and subconjunctival haemorrhage should raise the suspicion of leptospirosis, particularly in case of a history involving exposure to potentially contaminated water."
+    ]
+  },
+  {
+    "id": "27-2",
+    "source": "Processed/markdown/27---A-16-Year-Old-Boy-from-Sri-Lanka-With-Fever_2022_Clinical-Cases-in-Trop.md",
+    "question": "What tests are indicated to confirm leptospirosis?",
+    "answers": [
+      "PCR, MAT (microscopic agglutination test), IgM ELISA, dark-field microscopy",
+      "PCR and serology (MAT or IgM ELISA)"
+    ],
+    "gold_passages": [
+      "Polymerase chain reaction (PCR) detection has been used on blood, CSF and urine. For indirect diagnosis, the historical reference serological test is the microscopic agglutination test (MAT). Various ELISA tests detecting anti-Leptospira IgM are now commercially available."
+    ]
+  },
+  {
+    "id": "38-1",
+    "source": "Processed/markdown/38---A-24-Year-Old-Female-Globetrotter-With-Strange_2022_Clinical-Cases-in-T.md",
+    "question": "What is the most likely diagnosis for multiple cortical and subcortical cystic brain lesions containing a scolex in a patient with relevant travel history?",
+    "answers": [
+      "neurocysticercosis",
+      "cysticercosis"
+    ],
+    "gold_passages": [
+      "Given the presentation and her travel history to South America and South-east Asia the most likely diagnosis is neurocysticercosis with multiple cysts in the vesicular and colloidal stage."
+    ]
+  },
+  {
+    "id": "38-2",
+    "source": "Processed/markdown/38---A-24-Year-Old-Female-Globetrotter-With-Strange_2022_Clinical-Cases-in-T.md",
+    "question": "What antiparasitic treatment is recommended for vesicular/colloidal neurocysticercosis?",
+    "answers": [
+      "albendazole",
+      "albendazole with adjunctive corticosteroids"
+    ],
+    "gold_passages": [
+      "Albendazole or the combination of albendazole and praziquantel can decrease the number of active lesions and reduce long-term seizure frequency. Adjunctive corticosteroid therapy before antiparasitic drugs is recommended for all patients treated with anthelmintic drugs."
+    ]
+  }
+]
